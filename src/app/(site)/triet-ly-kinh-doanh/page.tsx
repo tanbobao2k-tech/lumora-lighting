@@ -22,6 +22,7 @@ export default function PhilosophyPage() {
             alt={content.signatureName}
             width={900}
             height={1200}
+            quality={95}
             priority
             className="h-full w-full object-cover"
           />
