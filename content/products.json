@@ -512,8 +512,9 @@
     "unit": "Bộ",
     "price": 450000,
     "description": "Đèn LED quang phổ chuyên dụng hỗ trợ cây trồng trong nhà quang hợp, phù hợp trồng rau sạch, cây cảnh indoor.",
+    "image": "/products/den-ho-tro-tang-truong-thuc-vat.jpg",
     "variants": [
-      { "sapCode": "LTS-GROW-30", "power": "30W", "voltage": "220-240VAC", "colorTemp": "Full spectrum", "ipRating": "IP20", "dimensions": "L500mm" }
+      { "sapCode": "LTS-GROW-30", "power": "30W", "voltage": "220-240VAC", "colorTemp": "Full spectrum", "ipRating": "IP20", "dimensions": "L500mm", "image": "/products/den-ho-tro-tang-truong-thuc-vat.jpg" }
     ]
   },
   {
@@ -677,6 +678,76 @@
     "description": "Đèn cắm sân vườn tích hợp pin mặt trời, tự động bật sáng khi trời tối, không cần đi dây điện.",
     "variants": [
       { "sapCode": "LTS-SGL06", "power": "6W", "voltage": "Pin mặt trời tích hợp", "colorTemp": "3000K/6000K", "ipRating": "IP65", "dimensions": "H400mm (kèm cọc cắm)" }
+    ]
+  },
+  {
+    "slug": "den-chum-trang-tri",
+    "name": "Đèn chùm trang trí pha lê",
+    "brand": "LTS",
+    "category": "trong-nha",
+    "subCategory": "Đèn chùm trang trí",
+    "unit": "Bộ",
+    "price": 15000000,
+    "description": "Đèn chùm pha lê cao cấp, điểm nhấn sang trọng cho phòng khách, sảnh biệt thự, khách sạn. Thiết kế và kích thước tuỳ theo không gian lắp đặt.",
+    "image": "/products/den-chum-trang-tri.jpg",
+    "variants": [
+      { "sapCode": "LTS-CHUM-01", "power": "Tuỳ số bóng", "voltage": "220-240VAC", "colorTemp": "2700K/3000K", "ipRating": "IP20", "dimensions": "Theo yêu cầu thiết kế", "note": "Giá tham khảo, báo giá chính xác theo mẫu và kích thước thực tế", "image": "/products/den-chum-trang-tri.jpg" }
+    ]
+  },
+  {
+    "slug": "den-chi-dan-thoat-nan",
+    "name": "Đèn chỉ dẫn thoát nạn (Exit light)",
+    "brand": "LTS",
+    "category": "trong-nha",
+    "subCategory": "Đèn sự cố",
+    "unit": "Bộ",
+    "price": 450000,
+    "description": "Đèn chỉ dẫn lối thoát hiểm, tự động sáng khi mất điện, bắt buộc trang bị cho chung cư, văn phòng, nhà xưởng theo quy định PCCC.",
+    "image": "/products/den-chi-dan-thoat-nan.jpg",
+    "variants": [
+      { "sapCode": "TEX 300S", "power": "3.9W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP40", "dimensions": "L347xW38xH244mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-chi-dan-thoat-nan.jpg" }
+    ]
+  },
+  {
+    "slug": "den-su-co-am-tran",
+    "name": "Đèn sự cố lắp âm trần",
+    "brand": "LTS",
+    "category": "trong-nha",
+    "subCategory": "Đèn sự cố",
+    "unit": "Bộ",
+    "price": 380000,
+    "description": "Đèn sự cố âm trần, tự động chiếu sáng khi mất điện, phù hợp hành lang, cầu thang thoát hiểm.",
+    "image": "/products/den-su-co-am-tran.jpg",
+    "variants": [
+      { "sapCode": "TTH 312", "power": "3W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP20", "dimensions": "D95xH88mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-su-co-am-tran.jpg" }
+    ]
+  },
+  {
+    "slug": "den-su-co-gan-noi",
+    "name": "Đèn sự cố gắn nổi",
+    "brand": "LTS",
+    "category": "trong-nha",
+    "subCategory": "Đèn sự cố",
+    "unit": "Bộ",
+    "price": 380000,
+    "description": "Đèn sự cố gắn nổi trần/tường, tự động chiếu sáng khi mất điện, dễ lắp đặt cho công trình có sẵn.",
+    "image": "/products/den-su-co-gan-noi.jpg",
+    "variants": [
+      { "sapCode": "TTH 312", "power": "3W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP20", "dimensions": "D88xH95mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-su-co-gan-noi.jpg" }
+    ]
+  },
+  {
+    "slug": "den-su-co-treo-tuong",
+    "name": "Đèn sự cố 2 đầu pha treo tường",
+    "brand": "LTS",
+    "category": "trong-nha",
+    "subCategory": "Đèn sự cố",
+    "unit": "Bộ",
+    "price": 480000,
+    "description": "Đèn sự cố dạng 2 đầu pha xoay hướng, chiếu sáng diện rộng khi mất điện, thường lắp ở hành lang, gara, nhà xưởng.",
+    "image": "/products/den-su-co-treo-tuong.jpg",
+    "variants": [
+      { "sapCode": "TEL 33", "power": "2x3W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP20", "dimensions": "L198xW82xH240mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-su-co-treo-tuong.jpg" }
     ]
   }
 ]
