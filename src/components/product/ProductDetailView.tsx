@@ -108,12 +108,12 @@ export function ProductDetailView({ product }: { product: Product }) {
       {product.lifestyleImage && (
         <div className="md:col-span-2">
           <p className="text-[11px] tracking-[0.25em] text-muted uppercase">Không gian thực tế</p>
-          <div className="relative mt-4 aspect-[4/5] w-full max-w-md overflow-hidden rounded-sm sm:aspect-video sm:max-w-none">
+          <div className="relative mt-4 h-[420px] w-full overflow-hidden rounded-sm bg-ink sm:h-[560px]">
             <Image
               src={product.lifestyleImage}
               alt={`${product.name} — không gian thực tế`}
               fill
-              className="object-cover"
+              className="object-contain"
               sizes="(min-width: 768px) 100vw, 90vw"
             />
           </div>
