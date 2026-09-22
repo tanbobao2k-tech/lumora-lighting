@@ -6,13 +6,21 @@ repo GitHub riêng: **https://github.com/tanbobao2k-tech/lumora-lighting** (priv
 
 ## Trạng thái hiện tại
 
-Đây là **khung xương (scaffold)** ban đầu, dùng dữ liệu mẫu trích từ ảnh chụp bảng báo giá LTS.
-Còn thiếu:
+Đây là **khung xương (scaffold)** ban đầu, dùng dữ liệu mẫu trích từ ảnh chụp bảng báo giá LTS và
+từ website chính thức của LTS (ltslight.vn). Còn thiếu:
 
 - **File Excel đầy đủ** — file gốc nằm ở `C:\Users\Admin\Desktop\LTS_DANH SÁCH HÀNG CÓ SẴN_02.07.2026_send.xls`
   (đã dùng để trích ảnh sản phẩm, xem mục Ảnh sản phẩm bên dưới), nhưng dữ liệu số lượng/giá/thông
-  số trong `content/products.json` mới chỉ là ~10 sản phẩm mẫu nhập tay — chưa import đầy đủ toàn
-  bộ danh mục từ file này. Có thể nhập thêm trực tiếp qua trang `/admin/san-pham`.
+  số trong `content/products.json` chỉ có 10 sản phẩm khớp đúng báo giá LTS gửi — chưa import đầy
+  đủ toàn bộ danh mục từ file này. Có thể nhập thêm trực tiếp qua trang `/admin/san-pham`.
+- **Giá của 20 sản phẩm lấy từ ltslight.vn (thêm sau, không có trong báo giá gốc) là giá ước tính,
+  chưa xác nhận với LTS** — trang ltslight.vn không công khai giá bán, nên giá các sản phẩm này
+  (đèn spotlight, panel, rọi ray, batten, T8, V-shape, high bay, tri-proof, grow light, pole light,
+  đèn pha, đèn nấm, đèn hắt cây, đèn âm nước, đèn gắn tường, đèn đường, và 4 dòng đèn năng lượng
+  mặt trời — pha/tường/sân vườn/đường) được ước lượng dựa trên mặt bằng giá thị trường đèn LED
+  Việt Nam cho công suất/loại tương đương. **Phải liên hệ LTS xác nhận giá thật trước khi bán** —
+  sửa qua `/admin/san-pham/<slug>`. 4 sản phẩm (grow light, đèn pha/tường/sân vườn NLMT) còn thiếu
+  cả ảnh thật (ltslight.vn không hiển thị) — đang dùng `ProductPlaceholderImage` fallback.
 - **Ảnh sản phẩm** — trích xuất trực tiếp từ ảnh gốc nhúng trong file Excel báo giá LTS (chuyển
   `.xls` → `.xlsx` qua Excel COM để lấy ảnh chất lượng cao trong `xl/media/`, khớp từng ảnh với
   đúng SKU bằng mắt), đặt tại `public/products/*.jpg` (ghép nền màu kem đồng bộ UI). Vẫn có 1-2
