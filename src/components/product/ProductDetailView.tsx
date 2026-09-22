@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Image from "next/image";
 import { useCart } from "@/components/cart/CartContext";
 import { formatPrice } from "@/lib/format";
 import type { Product } from "@/types/product";
@@ -103,6 +104,21 @@ export function ProductDetailView({ product }: { product: Product }) {
           </button>
         </div>
       </div>
+
+      {product.lifestyleImage && (
+        <div className="md:col-span-2">
+          <p className="text-[11px] tracking-[0.25em] text-muted uppercase">Không gian thực tế</p>
+          <div className="relative mt-4 aspect-[4/5] w-full max-w-md overflow-hidden rounded-sm sm:aspect-video sm:max-w-none">
+            <Image
+              src={product.lifestyleImage}
+              alt={`${product.name} — không gian thực tế`}
+              fill
+              className="object-cover"
+              sizes="(min-width: 768px) 100vw, 90vw"
+            />
+          </div>
+        </div>
+      )}
 
       <div className="fixed inset-x-0 bottom-0 z-30 flex items-center gap-3 border-t border-ink-foreground/10 bg-ink/95 px-5 py-3 text-ink-foreground backdrop-blur sm:hidden">
         <p className="flex-1 text-sm font-semibold">{formatPrice(product.price * quantity)}</p>

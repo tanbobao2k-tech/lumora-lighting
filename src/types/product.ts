@@ -25,6 +25,8 @@ export interface Product {
   variants: ProductVariant[];
   /** Ảnh đại diện sản phẩm (dùng cho thẻ sản phẩm, ảnh mặc định) */
   image?: string;
+  /** Ảnh không gian thực tế (lifestyle) — hiển thị thêm trên trang chi tiết, không dùng cho thẻ sản phẩm */
+  lifestyleImage?: string;
   /** Đường dẫn model 3D (.glb/.gltf) — để trống cho tới khi có file thật */
   model3d?: string;
 }
