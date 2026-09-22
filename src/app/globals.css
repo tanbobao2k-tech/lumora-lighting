@@ -1,35 +1,45 @@
 @import "tailwindcss";
 
 :root {
-  --background: #faf8f4;
+  --background: #f8f5ef;
   --surface: #ffffff;
-  --foreground: #1e1c1a;
-  --muted: #6f6b66;
-  --border: #e7e2da;
-  --accent: #a9895f;
+  --ink: #14120f;
+  --ink-foreground: #f3ede1;
+  --foreground: #1c1a16;
+  --muted: #726c62;
+  --border: #e3dcce;
+  --accent: #9c7a35;
+  --accent-soft: #d4af6a;
   --accent-foreground: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-border: var(--border);
   --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
   --color-accent-foreground: var(--accent-foreground);
   --font-sans: var(--font-noto-sans);
+  --font-serif: var(--font-display);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #161513;
-    --surface: #1e1c19;
-    --foreground: #f3f1ec;
-    --muted: #a29c93;
-    --border: #322f2a;
-    --accent: #c7a06d;
-    --accent-foreground: #161513;
+    --background: #14120f;
+    --surface: #1c1a15;
+    --ink: #0b0a08;
+    --ink-foreground: #f3ede1;
+    --foreground: #f3ede1;
+    --muted: #a89f8f;
+    --border: #302b22;
+    --accent: #c9a668;
+    --accent-soft: #dcc08e;
+    --accent-foreground: #14120f;
   }
 }
 
@@ -40,7 +50,7 @@ body {
   font-family: var(--font-sans), "Noto Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* Nền ảnh công nghệ mờ, phủ toàn trang, luôn nằm sau mọi nội dung */
+/* Kết cấu nền mờ, tinh tế — không lấn át tông màu sang trọng chủ đạo */
 body::before {
   content: "";
   position: fixed;
@@ -51,12 +61,49 @@ body::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.16;
+  filter: grayscale(1) contrast(0.9);
+  opacity: 0.05;
 }
 
 body > * {
   position: relative;
   z-index: 1;
+}
+
+.font-serif {
+  font-family: var(--font-display), "Playfair Display", Georgia, serif;
+}
+
+.btn-luxury {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 2px;
+  padding: 0.95rem 2.25rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-luxury-fill {
+  background: var(--ink);
+  color: var(--ink-foreground);
+}
+
+.btn-luxury-fill:hover {
+  opacity: 0.85;
+}
+
+.btn-luxury-outline {
+  border: 1px solid var(--border);
+  color: var(--foreground);
+}
+
+.btn-luxury-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .reveal {

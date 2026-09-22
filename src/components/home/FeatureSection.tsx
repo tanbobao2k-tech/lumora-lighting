@@ -36,28 +36,29 @@ export function FeatureSection({ content }: { content: HomeContent["feature"] })
           />
         </RevealOnScroll>
         <RevealOnScroll delay={0.1} className="md:order-1">
-          <p className="text-xs tracking-[0.25em] text-muted uppercase">{content.eyebrow}</p>
-          <h2 className="mt-2 text-2xl font-semibold sm:text-3xl">{content.title}</h2>
-          <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">{content.body}</p>
+          <p className="text-[11px] tracking-[0.3em] text-accent uppercase">{content.eyebrow}</p>
+          <span className="mt-3 block h-px w-12 bg-accent/50" />
+          <h2 className="font-serif mt-5 text-3xl sm:text-4xl">{content.title}</h2>
+          <p className="mt-5 max-w-md text-sm leading-relaxed text-muted">{content.body}</p>
 
-          <div className="mt-8 space-y-5">
+          <div className="mt-10 space-y-6">
             {POINTS.map((point) => (
-              <div key={point.title} className="flex gap-4">
+              <div key={point.title} className="flex gap-5">
                 <svg
                   viewBox="0 0 24 24"
                   aria-hidden
-                  className="mt-0.5 h-9 w-9 shrink-0 rounded-full border border-border p-2 text-accent"
+                  className="mt-0.5 h-10 w-10 shrink-0 rounded-full bg-ink p-2.5 text-accent-soft"
                   fill="none"
                   stroke="currentColor"
-                  strokeWidth="1.5"
+                  strokeWidth="1.4"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
                   {point.icon}
                 </svg>
                 <div>
-                  <p className="text-sm font-medium">{point.title}</p>
-                  <p className="text-sm text-muted">{point.body}</p>
+                  <p className="text-sm font-medium tracking-wide">{point.title}</p>
+                  <p className="mt-0.5 text-sm text-muted">{point.body}</p>
                 </div>
               </div>
             ))}

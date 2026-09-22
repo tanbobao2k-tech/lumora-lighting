@@ -14,8 +14,8 @@ export default function ContactPage() {
   return (
     <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
       <RevealOnScroll>
-        <p className="text-xs tracking-[0.25em] text-muted uppercase">Liên hệ</p>
-        <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">Kết nối với LUMORA</h1>
+        <p className="text-[11px] tracking-[0.3em] text-accent uppercase">Liên hệ</p>
+        <h1 className="font-serif mt-3 text-3xl sm:text-4xl">Kết nối với LUMORA</h1>
       </RevealOnScroll>
 
       <div className="mt-10 grid gap-10 md:grid-cols-2">

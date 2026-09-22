@@ -42,15 +42,12 @@ export default function CheckoutPage() {
   if (status === "done") {
     return (
       <div className="mx-auto max-w-lg px-5 py-24 text-center sm:px-8">
-        <h1 className="text-2xl font-semibold">Đặt hàng thành công</h1>
+        <h1 className="font-serif text-3xl">Đặt hàng thành công</h1>
         <p className="mt-3 text-sm text-muted">
           Mã đơn hàng: <span className="text-foreground">{orderId}</span>. Chúng tôi sẽ liên hệ
           qua số điện thoại {form.phone} để xác nhận đơn hàng.
         </p>
-        <Link
-          href="/san-pham"
-          className="mt-8 inline-block rounded-full bg-foreground px-6 py-3 text-sm text-background hover:opacity-85"
-        >
+        <Link href="/san-pham" className="btn-luxury mt-8 inline-flex bg-ink text-ink-foreground hover:opacity-85">
           Tiếp tục mua sắm
         </Link>
       </div>
@@ -70,7 +67,7 @@ export default function CheckoutPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-12 sm:px-8">
-      <h1 className="text-2xl font-semibold sm:text-3xl">Thông tin đặt hàng</h1>
+      <h1 className="font-serif text-3xl sm:text-4xl">Thông tin đặt hàng</h1>
 
       <div className="mt-8 grid gap-10 md:grid-cols-2">
         <form onSubmit={handleSubmit} className="space-y-5">
@@ -127,7 +124,7 @@ export default function CheckoutPage() {
           <button
             type="submit"
             disabled={status === "submitting"}
-            className="w-full rounded-full bg-foreground py-3.5 text-sm tracking-wide text-background transition-opacity hover:opacity-85 disabled:opacity-50"
+            className="btn-luxury w-full bg-ink text-ink-foreground hover:opacity-85 disabled:opacity-50"
           >
             {status === "submitting" ? "Đang gửi..." : "Xác nhận đặt hàng"}
           </button>
@@ -145,9 +142,9 @@ export default function CheckoutPage() {
               </div>
             ))}
           </div>
-          <div className="mt-4 flex justify-between border-t border-border pt-4 text-sm font-medium">
+          <div className="mt-4 flex items-center justify-between border-t border-border pt-4 text-sm font-medium">
             <span>Tổng cộng</span>
-            <span>{formatPrice(totalPrice)}</span>
+            <span className="font-serif text-lg text-accent">{formatPrice(totalPrice)}</span>
           </div>
           <p className="mt-4 text-xs text-muted">
             Thanh toán khi nhận hàng (COD) hoặc chuyển khoản — nhân viên sẽ trao đổi cụ thể khi

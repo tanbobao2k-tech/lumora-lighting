@@ -15,8 +15,8 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
       <RevealOnScroll>
-        <p className="text-xs tracking-[0.25em] text-muted uppercase">Giới thiệu</p>
-        <h1 className="mt-2 max-w-2xl text-3xl font-semibold sm:text-4xl">
+        <p className="text-[11px] tracking-[0.3em] text-accent uppercase">Giới thiệu</p>
+        <h1 className="font-serif mt-3 max-w-2xl text-3xl sm:text-4xl">
           LUMORA — đối tác chiếu sáng đáng tin cậy
         </h1>
         <p className="mt-5 max-w-xl text-sm leading-relaxed text-muted">

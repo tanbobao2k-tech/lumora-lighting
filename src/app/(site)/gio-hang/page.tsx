@@ -11,10 +11,7 @@ export default function CartPage() {
     return (
       <div className="mx-auto max-w-3xl px-5 py-24 text-center sm:px-8">
         <p className="text-lg">Giỏ hàng của bạn đang trống.</p>
-        <Link
-          href="/san-pham"
-          className="mt-6 inline-block rounded-full bg-foreground px-6 py-3 text-sm text-background hover:opacity-85"
-        >
+        <Link href="/san-pham" className="btn-luxury mt-6 inline-flex bg-ink text-ink-foreground hover:opacity-85">
           Khám phá sản phẩm
         </Link>
       </div>
@@ -23,7 +20,7 @@ export default function CartPage() {
 
   return (
     <div className="mx-auto max-w-3xl px-5 py-12 sm:px-8">
-      <h1 className="text-2xl font-semibold sm:text-3xl">Giỏ hàng</h1>
+      <h1 className="font-serif text-3xl sm:text-4xl">Giỏ hàng</h1>
 
       <div className="mt-8 divide-y divide-border">
         {items.map((item) => (
@@ -70,13 +67,10 @@ export default function CartPage() {
 
       <div className="mt-8 flex items-center justify-between border-t border-border pt-6">
         <p className="text-sm text-muted">Tổng cộng</p>
-        <p className="text-xl font-semibold">{formatPrice(totalPrice)}</p>
+        <p className="font-serif text-2xl text-accent">{formatPrice(totalPrice)}</p>
       </div>
 
-      <Link
-        href="/dat-hang"
-        className="mt-6 block w-full rounded-full bg-foreground py-3.5 text-center text-sm tracking-wide text-background hover:opacity-85"
-      >
+      <Link href="/dat-hang" className="btn-luxury mt-6 flex w-full bg-ink text-ink-foreground hover:opacity-85">
         Tiến hành đặt hàng
       </Link>
     </div>

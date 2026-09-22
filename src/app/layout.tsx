@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Noto_Sans } from "next/font/google";
+import { Noto_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const notoSans = Noto_Sans({
   variable: "--font-noto-sans",
   subsets: ["latin", "vietnamese"],
   weight: ["300", "400", "500", "600", "700"],
+});
+
+const playfairDisplay = Playfair_Display({
+  variable: "--font-display",
+  subsets: ["latin", "vietnamese"],
+  weight: ["500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -16,7 +22,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="vi" className={`${notoSans.variable} h-full antialiased`}>
+    <html
+      lang="vi"
+      className={`${notoSans.variable} ${playfairDisplay.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col bg-background text-foreground">{children}</body>
     </html>
   );

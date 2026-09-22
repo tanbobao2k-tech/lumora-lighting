@@ -12,9 +12,9 @@ export function CategoryFilter({ categories }: { categories: CategoryInfo[] }) {
     <div className="flex flex-wrap gap-2">
       <Link
         href="/san-pham"
-        className={`rounded-full border px-4 py-1.5 text-xs tracking-wide transition-colors ${
+        className={`border px-4 py-1.5 text-xs tracking-[0.1em] uppercase transition-colors ${
           !active
-            ? "border-accent bg-accent text-accent-foreground"
+            ? "border-ink bg-ink text-ink-foreground"
             : "border-border text-foreground/70 hover:border-accent hover:text-accent"
         }`}
       >
@@ -24,9 +24,9 @@ export function CategoryFilter({ categories }: { categories: CategoryInfo[] }) {
         <Link
           key={cat.id}
           href={`/san-pham?danh-muc=${cat.id}`}
-          className={`rounded-full border px-4 py-1.5 text-xs tracking-wide transition-colors ${
+          className={`border px-4 py-1.5 text-xs tracking-[0.1em] uppercase transition-colors ${
             active === cat.id
-              ? "border-accent bg-accent text-accent-foreground"
+              ? "border-ink bg-ink text-ink-foreground"
               : "border-border text-foreground/70 hover:border-accent hover:text-accent"
           }`}
         >

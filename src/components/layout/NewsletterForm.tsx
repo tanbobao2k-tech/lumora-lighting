@@ -12,7 +12,7 @@ export function NewsletterForm() {
   };
 
   if (submitted) {
-    return <p className="text-sm text-accent">Cảm ơn bạn đã đăng ký!</p>;
+    return <p className="text-sm text-accent-soft">Cảm ơn bạn đã đăng ký!</p>;
   }
 
   return (
@@ -23,12 +23,9 @@ export function NewsletterForm() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Email của bạn"
-        className="w-full min-w-0 rounded-full border border-border bg-background px-4 py-2.5 text-sm outline-none focus:border-accent"
+        className="w-full min-w-0 border border-ink-foreground/25 bg-transparent px-4 py-2.5 text-sm text-ink-foreground outline-none placeholder:text-ink-foreground/40 focus:border-accent-soft"
       />
-      <button
-        type="submit"
-        className="shrink-0 rounded-full bg-foreground px-4 py-2.5 text-xs tracking-wide text-background hover:opacity-85"
-      >
+      <button type="submit" className="btn-luxury bg-accent-soft text-ink hover:opacity-85 shrink-0">
         Đăng ký
       </button>
     </form>

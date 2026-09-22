@@ -26,8 +26,8 @@ export default async function ProductListPage({
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
-      <p className="text-xs tracking-[0.25em] text-muted uppercase">Sản phẩm</p>
-      <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">
+      <p className="text-[11px] tracking-[0.3em] text-accent uppercase">Sản phẩm</p>
+      <h1 className="font-serif mt-3 text-3xl sm:text-4xl">
         {category ? getCategoryLabel(category as ProductCategory) : "Toàn bộ sản phẩm"}
       </h1>
 

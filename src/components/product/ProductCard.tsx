@@ -9,32 +9,29 @@ export function ProductCard({ product }: { product: Product }) {
 
   return (
     <Link href={`/san-pham/${product.slug}`} className="group block">
-      <div className="relative aspect-square overflow-hidden rounded-sm shadow-sm transition-shadow duration-300 group-hover:shadow-xl">
-        <span className="absolute left-3 top-3 z-10 rounded-full bg-background/90 px-2.5 py-1 text-[10px] tracking-wide text-foreground/70 backdrop-blur">
-          Chính hãng
-        </span>
+      <div className="aspect-square overflow-hidden border border-border/70 transition-colors duration-300 group-hover:border-accent-soft">
         {product.image ? (
           <Image
             src={product.image}
             alt={product.name}
             width={900}
             height={900}
-            className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+            className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
           />
         ) : (
           <ProductPlaceholderImage
             label={product.name}
-            className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+            className="h-full w-full transition-transform duration-700 ease-out group-hover:scale-[1.04]"
           />
         )}
       </div>
-      <div className="mt-3 flex items-start justify-between gap-2">
+      <div className="mt-4 flex items-start justify-between gap-2">
         <div>
-          <p className="text-xs tracking-wide text-muted">{product.brand}</p>
-          <h3 className="text-sm text-foreground">{product.name}</h3>
+          <p className="text-[10px] tracking-[0.18em] text-muted uppercase">{product.brand}</p>
+          <h3 className="mt-1 text-sm text-foreground">{product.name}</h3>
         </div>
-        <p className="whitespace-nowrap text-sm text-foreground">
-          {hasMultipleVariants && <span className="text-muted">từ </span>}
+        <p className="font-serif whitespace-nowrap text-base text-accent">
+          {hasMultipleVariants && <span className="font-sans text-xs text-muted">từ </span>}
           {formatPrice(product.price)}
         </p>
       </div>
