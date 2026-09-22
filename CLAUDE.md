@@ -13,14 +13,21 @@ từ website chính thức của LTS (ltslight.vn). Còn thiếu:
   (đã dùng để trích ảnh sản phẩm, xem mục Ảnh sản phẩm bên dưới), nhưng dữ liệu số lượng/giá/thông
   số trong `content/products.json` chỉ có 10 sản phẩm khớp đúng báo giá LTS gửi — chưa import đầy
   đủ toàn bộ danh mục từ file này. Có thể nhập thêm trực tiếp qua trang `/admin/san-pham`.
-- **Giá của 20 sản phẩm lấy từ ltslight.vn (thêm sau, không có trong báo giá gốc) là giá ước tính,
-  chưa xác nhận với LTS** — trang ltslight.vn không công khai giá bán, nên giá các sản phẩm này
-  (đèn spotlight, panel, rọi ray, batten, T8, V-shape, high bay, tri-proof, grow light, pole light,
-  đèn pha, đèn nấm, đèn hắt cây, đèn âm nước, đèn gắn tường, đèn đường, và 4 dòng đèn năng lượng
-  mặt trời — pha/tường/sân vườn/đường) được ước lượng dựa trên mặt bằng giá thị trường đèn LED
-  Việt Nam cho công suất/loại tương đương. **Phải liên hệ LTS xác nhận giá thật trước khi bán** —
-  sửa qua `/admin/san-pham/<slug>`. 4 sản phẩm (grow light, đèn pha/tường/sân vườn NLMT) còn thiếu
-  cả ảnh thật (ltslight.vn không hiển thị) — đang dùng `ProductPlaceholderImage` fallback.
+- **Giá của 25 sản phẩm lấy từ ltslight.vn (thêm sau, không có trong báo giá gốc) là giá ước
+  tính, chưa xác nhận với LTS** — trang ltslight.vn không công khai giá bán, nên giá các sản phẩm
+  này (đèn spotlight, panel, rọi ray, batten, T8, V-shape, high bay, tri-proof, grow light, pole
+  light, đèn pha, đèn nấm, đèn hắt cây, đèn âm nước, đèn gắn tường, đèn đường, 4 dòng đèn năng
+  lượng mặt trời, đèn chùm trang trí, và 4 dòng đèn sự cố/thoát nạn) được ước lượng dựa trên mặt
+  bằng giá thị trường đèn LED Việt Nam cho công suất/loại tương đương — **riêng giá đèn chùm trang
+  trí gần như vô nghĩa vì loại này luôn báo giá theo mẫu/kích thước thực tế**, con số trong
+  `products.json` chỉ là placeholder tạm. **Phải liên hệ LTS xác nhận giá thật trước khi bán** —
+  sửa qua `/admin/san-pham/<slug>`. Ghi chú: người dùng xác nhận LUMORA và LTS Á Châu (ltslight.vn)
+  là cùng một chủ sở hữu, nên việc lấy toàn bộ ảnh/thông số từ ltslight.vn không có vấn đề bản
+  quyền. 3 sản phẩm (đèn pha/tường/sân vườn năng lượng mặt trời) vẫn chưa có ảnh thật vì chính
+  ltslight.vn cũng không hiển thị ảnh cho các mục này (trang chỉ có nút liên hệ báo giá) — đang
+  dùng `ProductPlaceholderImage` fallback. Còn nhiều danh mục trên ltslight.vn/vi/san-pham.html
+  chưa khai thác hết (ví dụ đèn Décor, đèn LED neon, LED Emergency Driver, đèn âm nước/gắn tường
+  không có thông số chi tiết công khai) — có thể lấy thêm khi cần.
 - **Ảnh sản phẩm** — trích xuất trực tiếp từ ảnh gốc nhúng trong file Excel báo giá LTS (chuyển
   `.xls` → `.xlsx` qua Excel COM để lấy ảnh chất lượng cao trong `xl/media/`, khớp từng ảnh với
   đúng SKU bằng mắt), đặt tại `public/products/*.jpg` (ghép nền màu kem đồng bộ UI). Vẫn có 1-2
@@ -85,10 +92,16 @@ Có trang admin chỉnh sửa gần như mọi nội dung web mà không cần s
 
 ## Tầm nhìn thiết kế
 
-Tối giản, phong cách Hàn Quốc nhẹ nhàng — nền kem ấm, chữ than đậm, một màu nhấn đồng/vàng trầm
-(`--accent`), nhiều khoảng trắng, ảnh sản phẩm full-bleed không viền/shadow nặng. Font chính:
-Noto Sans (hỗ trợ tiếng Việt đầy đủ qua `next/font/google`). Có thêm nền lưới "công nghệ" mờ
-(opacity ~0.05, xem `body::before` trong `globals.css`) phủ toàn site theo yêu cầu người dùng.
+Đã chuyển từ tối giản Hàn Quốc sang **luxury editorial** (tham khảo LV/Gucci/Thái Công) theo yêu
+cầu người dùng — nền đen than (`--ink` / `--ink-foreground`) cho Header, Hero, TrustBar, Footer,
+xen giữa các block nền kem sáng (`--background`/`--surface`) cho phần lưới sản phẩm (giữ độ tương
+phản rõ để ảnh sản phẩm dễ nhìn). Màu nhấn vàng đồng đậm hơn bản đầu (`--accent` / `--accent-soft`
+cho chữ trên nền tối). Font tiêu đề là **Playfair Display** (`.font-serif`, biến `--font-display`)
+dùng cho mọi h1/h2 và giá tiền; font phần thân vẫn là Noto Sans. Nút bấm chính dùng class dùng
+chung `.btn-luxury` (góc vuông, chữ hoa dãn cách, không còn bo tròn kiểu pill) thay cho
+`rounded-full`. Vẫn còn nền ảnh "công nghệ" mờ rất nhẹ (opacity 0.05, đã khử màu bằng
+`grayscale`) phủ toàn site — xem `body::before` trong `globals.css`, thêm theo yêu cầu người dùng
+trước khi chuyển hướng sang luxury nên đã giảm độ hiện diện để không phá tông đen/vàng.
 
 ## Tech stack
 
