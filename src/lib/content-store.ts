@@ -2,7 +2,7 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import type { Product, ProductCategory } from "@/types/product";
-import type { CategoryInfo, SiteInfo, HomeContent, Project } from "@/types/content";
+import type { CategoryInfo, SiteInfo, HomeContent, Project, Philosophy } from "@/types/content";
 import { commitFileToGithub, isGithubStorageEnabled } from "./github-content";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -84,4 +84,12 @@ export function getProjects(): Project[] {
 
 export async function saveProjects(projects: Project[]): Promise<void> {
   await writeJson("projects.json", projects);
+}
+
+export function getPhilosophy(): Philosophy {
+  return readJson<Philosophy>("philosophy.json");
+}
+
+export async function savePhilosophy(content: Philosophy): Promise<void> {
+  await writeJson("philosophy.json", content);
 }

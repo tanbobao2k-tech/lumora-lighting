@@ -52,6 +52,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/triet-ly-kinh-doanh" className="text-ink-foreground/70 hover:text-accent-soft">
+                Triết lý kinh doanh
+              </Link>
+            </li>
+            <li>
               <Link href="/gioi-thieu" className="text-ink-foreground/70 hover:text-accent-soft">
                 Giới thiệu
               </Link>

@@ -9,14 +9,14 @@ export function ProductCard({ product }: { product: Product }) {
 
   return (
     <Link href={`/san-pham/${product.slug}`} className="group block">
-      <div className="aspect-square overflow-hidden border border-border/70 transition-colors duration-300 group-hover:border-accent-soft">
+      <div className="aspect-square overflow-hidden border border-border/70 bg-surface p-6 transition-colors duration-300 group-hover:border-accent-soft">
         {product.image ? (
           <Image
             src={product.image}
             alt={product.name}
             width={900}
             height={900}
-            className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+            className="h-full w-full object-contain transition-transform duration-700 ease-out group-hover:scale-[1.04]"
           />
         ) : (
           <ProductPlaceholderImage
@@ -30,8 +30,8 @@ export function ProductCard({ product }: { product: Product }) {
           <p className="text-[10px] tracking-[0.18em] text-muted uppercase">{product.brand}</p>
           <h3 className="mt-1 text-sm text-foreground">{product.name}</h3>
         </div>
-        <p className="font-serif whitespace-nowrap text-base text-accent">
-          {hasMultipleVariants && <span className="font-sans text-xs text-muted">từ </span>}
+        <p className="whitespace-nowrap text-sm font-medium text-accent">
+          {hasMultipleVariants && <span className="font-normal text-xs text-muted">từ </span>}
           {formatPrice(product.price)}
         </p>
       </div>

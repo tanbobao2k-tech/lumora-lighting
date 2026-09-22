@@ -38,6 +38,16 @@ export interface Project {
   image: string;
 }
 
+export interface Philosophy {
+  eyebrow: string;
+  title: string;
+  quote: string;
+  body: string;
+  portrait: string;
+  signatureName: string;
+  signatureTitle: string;
+}
+
 export interface HomeContent {
   hero: {
     eyebrow: string;

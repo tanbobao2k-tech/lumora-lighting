@@ -41,7 +41,7 @@ export function ContactIcons() {
       label: "Gọi điện",
       href: `tel:${SITE_INFO.phones[0]}`,
       icon: <PhoneIcon />,
-      bg: "bg-foreground",
+      bg: "bg-accent",
     },
     {
       label: "Nhắn Zalo",

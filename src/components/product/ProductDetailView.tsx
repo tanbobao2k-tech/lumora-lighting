@@ -42,8 +42,8 @@ export function ProductDetailView({ product }: { product: Product }) {
 
       <div>
         <p className="text-[11px] tracking-[0.25em] text-accent uppercase">{product.brand}</p>
-        <h1 className="font-serif mt-3 text-3xl sm:text-4xl">{product.name}</h1>
-        <p className="font-serif mt-3 text-xl text-accent">{formatPrice(product.price)}</p>
+        <h1 className="mt-3 text-2xl font-semibold sm:text-3xl">{product.name}</h1>
+        <p className="mt-3 text-lg font-medium text-accent">{formatPrice(product.price)}</p>
         <p className="mt-4 text-sm leading-relaxed text-muted">{product.description}</p>
 
         <div className="mt-8 space-y-6">

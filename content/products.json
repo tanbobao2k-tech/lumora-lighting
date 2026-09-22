@@ -8,7 +8,7 @@
     "unit": "Bộ",
     "price": 132000,
     "description": "Đèn ốp trần lắp nổi, ánh sáng đều dịu, thường lắp đặt tại cầu thang bộ, ban công, lô gia.",
-    "image": "/products/den-op-tran-lap-noi_18w.jpg",
+    "image": "/products/den-op-tran-lap-noi_18w.png",
     "variants": [
       {
         "sapCode": "540001297500",
@@ -17,7 +17,7 @@
         "colorTemp": "6500K",
         "ipRating": "IP20",
         "dimensions": "D142xH45mm",
-        "image": "/products/den-op-tran-lap-noi_18w.jpg"
+        "image": "/products/den-op-tran-lap-noi_18w.png"
       },
       {
         "sapCode": "540001297300",
@@ -26,7 +26,7 @@
         "colorTemp": "6500K",
         "ipRating": "IP20",
         "dimensions": "D112xH45mm",
-        "image": "/products/den-op-tran-lap-noi_14w.jpg"
+        "image": "/products/den-op-tran-lap-noi_14w.png"
       }
     ]
   },
@@ -39,7 +39,7 @@
     "unit": "Bộ",
     "price": 490000,
     "description": "Đèn ống bơ gắn nổi, khả năng chống nước IP65, thường lắp đặt tại mái sảnh đón tiếp, ban công, lô gia.",
-    "image": "/products/den-ong-bo-gan-noi_10w-trang.jpg",
+    "image": "/products/den-ong-bo-gan-noi_10w-trang.png",
     "variants": [
       {
         "sapCode": "715000007500",
@@ -50,7 +50,7 @@
         "dimensions": "D75xH100mm",
         "finish": "Trắng",
         "note": "Hàng dự án",
-        "image": "/products/den-ong-bo-gan-noi_10w-trang.jpg"
+        "image": "/products/den-ong-bo-gan-noi_10w-trang.png"
       },
       {
         "sapCode": "715000007700",
@@ -61,7 +61,7 @@
         "dimensions": "D115xH152mm",
         "finish": "Đen",
         "note": "Hàng dự án",
-        "image": "/products/den-ong-bo-gan-noi_20w-den.jpg"
+        "image": "/products/den-ong-bo-gan-noi_20w-den.png"
       }
     ]
   },
@@ -74,7 +74,7 @@
     "unit": "Bộ",
     "price": 85000,
     "description": "Đèn downlight lắp âm trần, đa dạng công suất và kiểu chóa, phù hợp văn phòng, chung cư, khách sạn.",
-    "image": "/products/den-downlight-am-tran_9w.jpg",
+    "image": "/products/den-downlight-am-tran_9w.png",
     "variants": [
       {
         "sapCode": "540001281900",
@@ -83,7 +83,7 @@
         "colorTemp": "6500K",
         "ipRating": "IP20",
         "dimensions": "D115xH35mm (khoét D100mm)",
-        "image": "/products/den-downlight-am-tran_9w.jpg"
+        "image": "/products/den-downlight-am-tran_9w.png"
       },
       {
         "sapCode": "540001408500",
@@ -92,7 +92,7 @@
         "colorTemp": "6500K",
         "ipRating": "IP40",
         "dimensions": "D175xH10mm (khoét D145mm)",
-        "image": "/products/den-downlight-am-tran_12w.jpg"
+        "image": "/products/den-downlight-am-tran_12w.png"
       },
       {
         "sapCode": "540001180210",
@@ -102,7 +102,7 @@
         "ipRating": "IP44",
         "dimensions": "D213xH31mm (khoét D200mm)",
         "note": "Chống ẩm, ưu tiên lắp phòng vệ sinh, sảnh",
-        "image": "/products/den-downlight-am-tran_18w-ip44.jpg"
+        "image": "/products/den-downlight-am-tran_18w-ip44.png"
       },
       {
         "sapCode": "540001346300",
@@ -112,7 +112,7 @@
         "ipRating": "IP20",
         "dimensions": "D140xH48mm (khoét D125mm)",
         "note": "Ưu tiên lắp sảnh cao 3.5-4m",
-        "image": "/products/den-downlight-am-tran_20w-choa.jpg"
+        "image": "/products/den-downlight-am-tran_20w-choa.png"
       },
       {
         "sapCode": "DN350B LED20/CW",
@@ -123,7 +123,7 @@
         "dimensions": "D170xH82mm (khoét D150mm)",
         "finish": "Philips",
         "note": "Đèn chóa sâu, ưu tiên lắp sảnh cao 3.5-4m",
-        "image": "/products/den-downlight-am-tran_philips-20w.jpg"
+        "image": "/products/den-downlight-am-tran_philips-20w.png"
       }
     ]
   },
@@ -136,7 +136,7 @@
     "unit": "Cuộn",
     "price": 2187000,
     "description": "Đèn led dây trang trí, thường lắp đặt tại khu vực trần giật cấp.",
-    "image": "/products/den-led-day_9w.jpg",
+    "image": "/products/den-led-day_9w.png",
     "variants": [
       {
         "sapCode": "504000013110",
@@ -145,7 +145,7 @@
         "colorTemp": "4000K",
         "ipRating": "IP20",
         "dimensions": "1 cuộn dài 50m (đã bao gồm nguồn)",
-        "image": "/products/den-led-day_9w.jpg"
+        "image": "/products/den-led-day_9w.png"
       }
     ]
   },
@@ -158,7 +158,7 @@
     "unit": "Bộ",
     "price": 1050000,
     "description": "Đèn linear treo thả trần, thường lắp đặt tại bàn làm việc, pantry, khu vực văn phòng.",
-    "image": "/products/den-linear-treo-tha_opple-30w.jpg",
+    "image": "/products/den-linear-treo-tha_opple-30w.png",
     "variants": [
       {
         "sapCode": "529000064710",
@@ -168,7 +168,7 @@
         "ipRating": "IP20",
         "dimensions": "L1207xW90xH55mm",
         "finish": "Xám",
-        "image": "/products/den-linear-treo-tha_opple-30w.jpg"
+        "image": "/products/den-linear-treo-tha_opple-30w.png"
       },
       {
         "sapCode": "RC095V LED30S/865",
@@ -179,7 +179,7 @@
         "dimensions": "L1200xW120xH50mm",
         "finish": "Đen (Philips)",
         "note": "Hàng dự án",
-        "image": "/products/den-linear-treo-tha_philips-30w.jpg"
+        "image": "/products/den-linear-treo-tha_philips-30w.png"
       }
     ]
   },
@@ -192,7 +192,7 @@
     "unit": "Bộ",
     "price": 77000,
     "description": "Máng đèn tuýp 1.2m lắp gắn tường, dạng đơn hoặc đôi.",
-    "image": "/products/mang-den-tuyp_don.jpg",
+    "image": "/products/mang-den-tuyp_don.png",
     "variants": [
       {
         "sapCode": "140062025",
@@ -202,7 +202,7 @@
         "ipRating": "IP20",
         "dimensions": "L1200mm",
         "note": "Máng đơn",
-        "image": "/products/mang-den-tuyp_don.jpg"
+        "image": "/products/mang-den-tuyp_don.png"
       },
       {
         "sapCode": "140056704",
@@ -212,7 +212,7 @@
         "ipRating": "IP20",
         "dimensions": "L1200mm",
         "note": "Máng đôi",
-        "image": "/products/mang-den-tuyp_doi.jpg"
+        "image": "/products/mang-den-tuyp_doi.png"
       }
     ]
   },
@@ -225,7 +225,7 @@
     "unit": "Bộ",
     "price": 495000,
     "description": "Đèn đọc sách lắp âm hoặc gắn nổi tường, thường lắp đặt tại khu vực đầu giường ngủ.",
-    "image": "/products/den-doc-sach_lct001-b-wt.jpg",
+    "image": "/products/den-doc-sach_lct001-b-wt.png",
     "variants": [
       {
         "sapCode": "LCT001-B-GD",
@@ -236,7 +236,7 @@
         "dimensions": "L178xW50xD9mm",
         "finish": "Vàng đồng",
         "note": "Lắp âm tường",
-        "image": "/products/den-doc-sach_lct001-b-gd.jpg"
+        "image": "/products/den-doc-sach_lct001-b-gd.png"
       },
       {
         "sapCode": "LCT001-B-WT",
@@ -247,7 +247,7 @@
         "dimensions": "L178xW50xD9mm",
         "finish": "Trắng",
         "note": "Lắp âm tường",
-        "image": "/products/den-doc-sach_lct001-b-wt.jpg"
+        "image": "/products/den-doc-sach_lct001-b-wt.png"
       },
       {
         "sapCode": "LCT001-C-WT",
@@ -258,7 +258,7 @@
         "dimensions": "L154xW50xD9mm",
         "finish": "Trắng",
         "note": "Lắp âm tường",
-        "image": "/products/den-doc-sach_lct001-c-wt.jpg"
+        "image": "/products/den-doc-sach_lct001-c-wt.png"
       },
       {
         "sapCode": "LCT067A-GD",
@@ -269,7 +269,7 @@
         "dimensions": "L140xW50xH18mm",
         "finish": "Vàng đồng",
         "note": "Gắn nổi tường",
-        "image": "/products/den-doc-sach_lct067a-gd.jpg"
+        "image": "/products/den-doc-sach_lct067a-gd.png"
       },
       {
         "sapCode": "LCT067A-WT",
@@ -280,7 +280,7 @@
         "dimensions": "L140xW50xH18mm",
         "finish": "Trắng",
         "note": "Gắn nổi tường",
-        "image": "/products/den-doc-sach_lct067a-wt.jpg"
+        "image": "/products/den-doc-sach_lct067a-wt.png"
       }
     ]
   },
@@ -293,7 +293,7 @@
     "unit": "Bộ",
     "price": 300000,
     "description": "Đèn cắm cỏ chiếu sáng cây cảnh, tiểu cảnh sân vườn, khả năng chống nước cao cho ngoài trời.",
-    "image": "/products/den-cam-co_sp4609.jpg",
+    "image": "/products/den-cam-co_sp4609.png",
     "variants": [
       {
         "sapCode": "SP4609",
@@ -304,7 +304,7 @@
         "dimensions": "L150xD85xH300mm",
         "finish": "Đen",
         "note": "Lắp với chân cắm cỏ (cắm xuống đất)",
-        "image": "/products/den-cam-co_sp4609.jpg"
+        "image": "/products/den-cam-co_sp4609.png"
       },
       {
         "sapCode": "TR-E93-B",
@@ -315,7 +315,7 @@
         "dimensions": "D93xH150mm",
         "finish": "Xám",
         "note": "Lắp với base (bắn lên bệ bê tông)",
-        "image": "/products/den-cam-co_tr-e93-b.jpg"
+        "image": "/products/den-cam-co_tr-e93-b.png"
       },
       {
         "sapCode": "TR-E93-R",
@@ -326,7 +326,7 @@
         "dimensions": "D93xH150mm",
         "finish": "Xám",
         "note": "Lắp với đai (quấn vào cây, cột)",
-        "image": "/products/den-cam-co_tr-e93-r.jpg"
+        "image": "/products/den-cam-co_tr-e93-r.png"
       }
     ]
   },
@@ -339,7 +339,7 @@
     "unit": "Bộ",
     "price": 432000,
     "description": "Đèn âm đất, thường lắp âm đất/bệ tông, chiếu bậc thang/bậc tam cấp/cột đá ngoài nhà.",
-    "image": "/products/den-am-dat_ig7078.jpg",
+    "image": "/products/den-am-dat_ig7078.png",
     "variants": [
       {
         "sapCode": "IG7078",
@@ -348,7 +348,7 @@
         "colorTemp": "4000K/3000K",
         "ipRating": "IP67",
         "dimensions": "D60xH65mm (đế D46xH80mm)",
-        "image": "/products/den-am-dat_ig7078.jpg"
+        "image": "/products/den-am-dat_ig7078.png"
       }
     ]
   },
@@ -361,7 +361,7 @@
     "unit": "Bộ",
     "price": 500000,
     "description": "Quạt vận hành bằng năng lượng mặt trời, giải pháp làm mát tiết kiệm điện cho không gian ngoài trời.",
-    "image": "/products/quat-nang-luong_chan-quy.jpg",
+    "image": "/products/quat-nang-luong_chan-quy.png",
     "variants": [
       {
         "sapCode": "SPS-040",
@@ -370,7 +370,7 @@
         "colorTemp": "—",
         "ipRating": "—",
         "dimensions": "Quạt chân quỳ",
-        "image": "/products/quat-nang-luong_chan-quy.jpg"
+        "image": "/products/quat-nang-luong_chan-quy.png"
       },
       {
         "sapCode": "SPS-042",
@@ -379,7 +379,7 @@
         "colorTemp": "—",
         "ipRating": "—",
         "dimensions": "Quạt đứng",
-        "image": "/products/quat-nang-luong_dung.jpg"
+        "image": "/products/quat-nang-luong_dung.png"
       }
     ]
   },
@@ -392,10 +392,26 @@
     "unit": "Bộ",
     "price": 120000,
     "description": "Đèn spotlight âm trần chiếu điểm, xoay chỉnh hướng chiếu linh hoạt, phù hợp rọi trưng bày, hành lang, phòng khách.",
-    "image": "/products/den-spotlight-am-tran.jpg",
+    "image": "/products/den-spotlight-am-tran.png",
     "variants": [
-      { "sapCode": "LTS-SP06", "power": "6W", "voltage": "220-240VAC", "colorTemp": "2700K/3000K/4000K", "ipRating": "IP20", "dimensions": "D76xH87mm (khoét D75mm)", "image": "/products/den-spotlight-am-tran.jpg" },
-      { "sapCode": "LTS-SP20", "power": "20W", "voltage": "220-240VAC", "colorTemp": "2700K/3000K/4000K", "ipRating": "IP44", "dimensions": "D110xH115mm (khoét D102mm)", "image": "/products/den-spotlight-am-tran.jpg" }
+      {
+        "sapCode": "LTS-SP06",
+        "power": "6W",
+        "voltage": "220-240VAC",
+        "colorTemp": "2700K/3000K/4000K",
+        "ipRating": "IP20",
+        "dimensions": "D76xH87mm (khoét D75mm)",
+        "image": "/products/den-spotlight-am-tran.png"
+      },
+      {
+        "sapCode": "LTS-SP20",
+        "power": "20W",
+        "voltage": "220-240VAC",
+        "colorTemp": "2700K/3000K/4000K",
+        "ipRating": "IP44",
+        "dimensions": "D110xH115mm (khoét D102mm)",
+        "image": "/products/den-spotlight-am-tran.png"
+      }
     ]
   },
   {
@@ -407,10 +423,27 @@
     "unit": "Bộ",
     "price": 420000,
     "description": "Đèn panel âm trần ánh sáng đều dịu, thường lắp cho văn phòng, showroom, trần thạch cao.",
-    "image": "/products/den-panel-am-tran.jpg",
+    "image": "/products/den-panel-am-tran.png",
     "variants": [
-      { "sapCode": "OP-PN60-32", "power": "32W", "voltage": "220-240VAC", "colorTemp": "3000K/4000K/6500K", "ipRating": "IP20", "dimensions": "L595xW595xH34mm", "image": "/products/den-panel-am-tran.jpg" },
-      { "sapCode": "OP-PN120-32", "power": "32W", "voltage": "220-240VAC", "colorTemp": "3000K/4000K/6500K", "ipRating": "IP20", "dimensions": "L1195xW295xH34mm", "note": "Dạng dài", "image": "/products/den-panel-am-tran.jpg" }
+      {
+        "sapCode": "OP-PN60-32",
+        "power": "32W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4000K/6500K",
+        "ipRating": "IP20",
+        "dimensions": "L595xW595xH34mm",
+        "image": "/products/den-panel-am-tran.png"
+      },
+      {
+        "sapCode": "OP-PN120-32",
+        "power": "32W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4000K/6500K",
+        "ipRating": "IP20",
+        "dimensions": "L1195xW295xH34mm",
+        "note": "Dạng dài",
+        "image": "/products/den-panel-am-tran.png"
+      }
     ]
   },
   {
@@ -422,10 +455,26 @@
     "unit": "Bộ",
     "price": 250000,
     "description": "Đèn rọi ray gắn thanh ray, chiếu điểm nhấn sản phẩm, thường dùng cho shop thời trang, showroom.",
-    "image": "/products/den-roi-ray.jpg",
+    "image": "/products/den-roi-ray.png",
     "variants": [
-      { "sapCode": "LTS-TR10", "power": "10W", "voltage": "220-240VAC", "colorTemp": "2700K/3000K/4000K", "ipRating": "IP20", "dimensions": "D70xL95mm", "image": "/products/den-roi-ray.jpg" },
-      { "sapCode": "LTS-TR20", "power": "20W", "voltage": "220-240VAC", "colorTemp": "2700K/3000K/4000K", "ipRating": "IP20", "dimensions": "D70xL95mm", "image": "/products/den-roi-ray.jpg" }
+      {
+        "sapCode": "LTS-TR10",
+        "power": "10W",
+        "voltage": "220-240VAC",
+        "colorTemp": "2700K/3000K/4000K",
+        "ipRating": "IP20",
+        "dimensions": "D70xL95mm",
+        "image": "/products/den-roi-ray.png"
+      },
+      {
+        "sapCode": "LTS-TR20",
+        "power": "20W",
+        "voltage": "220-240VAC",
+        "colorTemp": "2700K/3000K/4000K",
+        "ipRating": "IP20",
+        "dimensions": "D70xL95mm",
+        "image": "/products/den-roi-ray.png"
+      }
     ]
   },
   {
@@ -437,10 +486,26 @@
     "unit": "Bộ",
     "price": 280000,
     "description": "Máng đèn batten kèm chóa phản quang, dùng bóng tuýp LED Osram, phù hợp nhà kho, gara, khu vực kỹ thuật.",
-    "image": "/products/den-batten-choa-reflector.jpg",
+    "image": "/products/den-batten-choa-reflector.png",
     "variants": [
-      { "sapCode": "LTS-RF010", "power": "10W", "voltage": "220-240VAC", "colorTemp": "3000K/6500K", "ipRating": "IP20", "dimensions": "Máng L600mm", "image": "/products/den-batten-choa-reflector.jpg" },
-      { "sapCode": "LTS-RF020 / LRF228", "power": "28W", "voltage": "220-240VAC", "colorTemp": "3000K/6500K", "ipRating": "IP20", "dimensions": "Máng L1200mm", "image": "/products/den-batten-choa-reflector.jpg" }
+      {
+        "sapCode": "LTS-RF010",
+        "power": "10W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/6500K",
+        "ipRating": "IP20",
+        "dimensions": "Máng L600mm",
+        "image": "/products/den-batten-choa-reflector.png"
+      },
+      {
+        "sapCode": "LTS-RF020 / LRF228",
+        "power": "28W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/6500K",
+        "ipRating": "IP20",
+        "dimensions": "Máng L1200mm",
+        "image": "/products/den-batten-choa-reflector.png"
+      }
     ]
   },
   {
@@ -452,10 +517,26 @@
     "unit": "Bóng",
     "price": 45000,
     "description": "Bóng đèn LED tuýp T8 thay thế bóng huỳnh quang cũ, tiết kiệm điện, lắp trực tiếp vào máng có sẵn.",
-    "image": "/products/bong-led-tube-t8.jpg",
+    "image": "/products/bong-led-tube-t8.png",
     "variants": [
-      { "sapCode": "LTS-T8-600", "power": "9W", "voltage": "220-240VAC", "colorTemp": "3000K/4000K/6500K", "ipRating": "IP20", "dimensions": "L600xD28mm", "image": "/products/bong-led-tube-t8.jpg" },
-      { "sapCode": "LTS-T8-1200", "power": "13.5W", "voltage": "220-240VAC", "colorTemp": "3000K/4000K/6500K", "ipRating": "IP20", "dimensions": "L1200xD28mm", "image": "/products/bong-led-tube-t8.jpg" }
+      {
+        "sapCode": "LTS-T8-600",
+        "power": "9W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4000K/6500K",
+        "ipRating": "IP20",
+        "dimensions": "L600xD28mm",
+        "image": "/products/bong-led-tube-t8.png"
+      },
+      {
+        "sapCode": "LTS-T8-1200",
+        "power": "13.5W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4000K/6500K",
+        "ipRating": "IP20",
+        "dimensions": "L1200xD28mm",
+        "image": "/products/bong-led-tube-t8.png"
+      }
     ]
   },
   {
@@ -467,9 +548,17 @@
     "unit": "Bộ",
     "price": 260000,
     "description": "Đèn batten dạng chữ V góc chiếu rộng, treo trần hoặc gắn nổi, phù hợp nhà xưởng, siêu thị.",
-    "image": "/products/den-v-shape.jpg",
+    "image": "/products/den-v-shape.png",
     "variants": [
-      { "sapCode": "LTS-VS20", "power": "20W", "voltage": "220-240VAC", "colorTemp": "4000K/6500K", "ipRating": "IP20", "dimensions": "L600mm", "image": "/products/den-v-shape.jpg" }
+      {
+        "sapCode": "LTS-VS20",
+        "power": "20W",
+        "voltage": "220-240VAC",
+        "colorTemp": "4000K/6500K",
+        "ipRating": "IP20",
+        "dimensions": "L600mm",
+        "image": "/products/den-v-shape.png"
+      }
     ]
   },
   {
@@ -481,10 +570,28 @@
     "unit": "Bộ",
     "price": 1200000,
     "description": "Đèn High Bay treo trần cao, ánh sáng mạnh hiệu suất cao, phù hợp nhà xưởng, nhà kho trần cao 6-12m.",
-    "image": "/products/den-highbay.jpg",
+    "image": "/products/den-highbay.png",
     "variants": [
-      { "sapCode": "LTS-HB100", "power": "100W", "voltage": "220-240VAC", "colorTemp": "5700K/6500K", "ipRating": "IP65", "dimensions": "D400xH150mm", "note": "Hiệu suất ~150lm/W", "image": "/products/den-highbay.jpg" },
-      { "sapCode": "LTS-HB200", "power": "200W", "voltage": "220-240VAC", "colorTemp": "5700K/6500K", "ipRating": "IP65", "dimensions": "D450xH180mm", "note": "Hiệu suất ~160lm/W", "image": "/products/den-highbay.jpg" }
+      {
+        "sapCode": "LTS-HB100",
+        "power": "100W",
+        "voltage": "220-240VAC",
+        "colorTemp": "5700K/6500K",
+        "ipRating": "IP65",
+        "dimensions": "D400xH150mm",
+        "note": "Hiệu suất ~150lm/W",
+        "image": "/products/den-highbay.png"
+      },
+      {
+        "sapCode": "LTS-HB200",
+        "power": "200W",
+        "voltage": "220-240VAC",
+        "colorTemp": "5700K/6500K",
+        "ipRating": "IP65",
+        "dimensions": "D450xH180mm",
+        "note": "Hiệu suất ~160lm/W",
+        "image": "/products/den-highbay.png"
+      }
     ]
   },
   {
@@ -496,11 +603,36 @@
     "unit": "Bộ",
     "price": 380000,
     "description": "Máng đèn chống ẩm, chống bụi, chống côn trùng — thường lắp tầng hầm, nhà xe, khu vực ẩm ướt.",
-    "image": "/products/den-chong-am-tri-proof.jpg",
+    "image": "/products/den-chong-am-tri-proof.png",
     "variants": [
-      { "sapCode": "LTS-TP20", "power": "20W", "voltage": "220-240VAC", "colorTemp": "3000K/4500K/6000K", "ipRating": "IP65", "dimensions": "L610mm", "image": "/products/den-chong-am-tri-proof.jpg" },
-      { "sapCode": "LTS-TP40", "power": "40W", "voltage": "220-240VAC", "colorTemp": "3000K/4500K/6000K", "ipRating": "IP65", "dimensions": "L1221xW74xH64mm", "image": "/products/den-chong-am-tri-proof.jpg" },
-      { "sapCode": "LTS-TP60", "power": "60W", "voltage": "220-240VAC", "colorTemp": "3000K/4500K/6000K", "ipRating": "IP65", "dimensions": "L1221xW74xH64mm", "note": "Có thể nối nhiều đèn liên tiếp", "image": "/products/den-chong-am-tri-proof.jpg" }
+      {
+        "sapCode": "LTS-TP20",
+        "power": "20W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4500K/6000K",
+        "ipRating": "IP65",
+        "dimensions": "L610mm",
+        "image": "/products/den-chong-am-tri-proof.png"
+      },
+      {
+        "sapCode": "LTS-TP40",
+        "power": "40W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4500K/6000K",
+        "ipRating": "IP65",
+        "dimensions": "L1221xW74xH64mm",
+        "image": "/products/den-chong-am-tri-proof.png"
+      },
+      {
+        "sapCode": "LTS-TP60",
+        "power": "60W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4500K/6000K",
+        "ipRating": "IP65",
+        "dimensions": "L1221xW74xH64mm",
+        "note": "Có thể nối nhiều đèn liên tiếp",
+        "image": "/products/den-chong-am-tri-proof.png"
+      }
     ]
   },
   {
@@ -512,9 +644,17 @@
     "unit": "Bộ",
     "price": 450000,
     "description": "Đèn LED quang phổ chuyên dụng hỗ trợ cây trồng trong nhà quang hợp, phù hợp trồng rau sạch, cây cảnh indoor.",
-    "image": "/products/den-ho-tro-tang-truong-thuc-vat.jpg",
+    "image": "/products/den-ho-tro-tang-truong-thuc-vat.png",
     "variants": [
-      { "sapCode": "LTS-GROW-30", "power": "30W", "voltage": "220-240VAC", "colorTemp": "Full spectrum", "ipRating": "IP20", "dimensions": "L500mm", "image": "/products/den-ho-tro-tang-truong-thuc-vat.jpg" }
+      {
+        "sapCode": "LTS-GROW-30",
+        "power": "30W",
+        "voltage": "220-240VAC",
+        "colorTemp": "Full spectrum",
+        "ipRating": "IP20",
+        "dimensions": "L500mm",
+        "image": "/products/den-ho-tro-tang-truong-thuc-vat.png"
+      }
     ]
   },
   {
@@ -526,10 +666,27 @@
     "unit": "Bộ",
     "price": 2500000,
     "description": "Đèn cột trang trí sân vườn, công viên, khuôn viên biệt thự — ánh sáng toả đều 360 độ.",
-    "image": "/products/den-pole-light.jpg",
+    "image": "/products/den-pole-light.png",
     "variants": [
-      { "sapCode": "LTS-PL30", "power": "30W", "voltage": "100-277VAC", "colorTemp": "3000K/4000K/6500K", "ipRating": "IP66", "dimensions": "D422xW422xH539mm", "image": "/products/den-pole-light.jpg" },
-      { "sapCode": "LTS-PL90", "power": "90W", "voltage": "100-277VAC", "colorTemp": "3000K/4000K/6500K", "ipRating": "IP66", "dimensions": "D422xW422xH539mm", "note": "Quang thông 13.500lm", "image": "/products/den-pole-light.jpg" }
+      {
+        "sapCode": "LTS-PL30",
+        "power": "30W",
+        "voltage": "100-277VAC",
+        "colorTemp": "3000K/4000K/6500K",
+        "ipRating": "IP66",
+        "dimensions": "D422xW422xH539mm",
+        "image": "/products/den-pole-light.png"
+      },
+      {
+        "sapCode": "LTS-PL90",
+        "power": "90W",
+        "voltage": "100-277VAC",
+        "colorTemp": "3000K/4000K/6500K",
+        "ipRating": "IP66",
+        "dimensions": "D422xW422xH539mm",
+        "note": "Quang thông 13.500lm",
+        "image": "/products/den-pole-light.png"
+      }
     ]
   },
   {
@@ -541,10 +698,26 @@
     "unit": "Bộ",
     "price": 1800000,
     "description": "Đèn pha công suất lớn chiếu sáng sân bãi, công trình, biển quảng cáo, sân thể thao.",
-    "image": "/products/den-pha-led.jpg",
+    "image": "/products/den-pha-led.png",
     "variants": [
-      { "sapCode": "LTS-FL500", "power": "500W", "voltage": "220-240VAC", "colorTemp": "3000K/4000K/5700K/6500K", "ipRating": "IP66", "dimensions": "L470xH520xW127mm", "image": "/products/den-pha-led.jpg" },
-      { "sapCode": "LTS-FL1200", "power": "1200W", "voltage": "220-240VAC", "colorTemp": "3000K/4000K/5700K/6500K", "ipRating": "IP66", "dimensions": "L920xH558xW127mm", "image": "/products/den-pha-led.jpg" }
+      {
+        "sapCode": "LTS-FL500",
+        "power": "500W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4000K/5700K/6500K",
+        "ipRating": "IP66",
+        "dimensions": "L470xH520xW127mm",
+        "image": "/products/den-pha-led.png"
+      },
+      {
+        "sapCode": "LTS-FL1200",
+        "power": "1200W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4000K/5700K/6500K",
+        "ipRating": "IP66",
+        "dimensions": "L920xH558xW127mm",
+        "image": "/products/den-pha-led.png"
+      }
     ]
   },
   {
@@ -556,9 +729,18 @@
     "unit": "Bộ",
     "price": 650000,
     "description": "Đèn nấm chiếu sáng lối đi, sân vườn, dạng cắm cọc thấp, ánh sáng dịu toả rộng quanh gốc đèn.",
-    "image": "/products/den-nam-bollard.jpg",
+    "image": "/products/den-nam-bollard.png",
     "variants": [
-      { "sapCode": "LTS-BL20", "power": "20W", "voltage": "220-240VAC", "colorTemp": "3000K/4000K/5000K", "ipRating": "IP66", "dimensions": "D160xH225mm", "note": "Chống va đập IK08", "image": "/products/den-nam-bollard.jpg" }
+      {
+        "sapCode": "LTS-BL20",
+        "power": "20W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K/4000K/5000K",
+        "ipRating": "IP66",
+        "dimensions": "D160xH225mm",
+        "note": "Chống va đập IK08",
+        "image": "/products/den-nam-bollard.png"
+      }
     ]
   },
   {
@@ -570,10 +752,27 @@
     "unit": "Bộ",
     "price": 550000,
     "description": "Đèn hắt sáng từ dưới lên tán cây, tạo điểm nhấn cảnh quan ban đêm cho sân vườn, biệt thự.",
-    "image": "/products/den-hat-cay-tree-uplight.jpg",
+    "image": "/products/den-hat-cay-tree-uplight.png",
     "variants": [
-      { "sapCode": "LTS-TU09", "power": "9W", "voltage": "220VAC", "colorTemp": "3000K/4000K", "ipRating": "IP66", "dimensions": "D190xH265mm", "image": "/products/den-hat-cay-tree-uplight.jpg" },
-      { "sapCode": "LTS-TU60", "power": "60W", "voltage": "220VAC", "colorTemp": "3000K/4000K", "ipRating": "IP66", "dimensions": "D190xH265mm", "note": "Góc chiếu tuỳ chọn 3-60 độ", "image": "/products/den-hat-cay-tree-uplight.jpg" }
+      {
+        "sapCode": "LTS-TU09",
+        "power": "9W",
+        "voltage": "220VAC",
+        "colorTemp": "3000K/4000K",
+        "ipRating": "IP66",
+        "dimensions": "D190xH265mm",
+        "image": "/products/den-hat-cay-tree-uplight.png"
+      },
+      {
+        "sapCode": "LTS-TU60",
+        "power": "60W",
+        "voltage": "220VAC",
+        "colorTemp": "3000K/4000K",
+        "ipRating": "IP66",
+        "dimensions": "D190xH265mm",
+        "note": "Góc chiếu tuỳ chọn 3-60 độ",
+        "image": "/products/den-hat-cay-tree-uplight.png"
+      }
     ]
   },
   {
@@ -585,9 +784,17 @@
     "unit": "Bộ",
     "price": 750000,
     "description": "Đèn lắp âm dưới nước hồ bơi, hồ cảnh quan, đài phun nước — kín nước hoàn toàn, chịu áp lực nước tốt.",
-    "image": "/products/den-am-nuoc-underwater.jpg",
+    "image": "/products/den-am-nuoc-underwater.png",
     "variants": [
-      { "sapCode": "LTS-UW18", "power": "18W", "voltage": "DC24V", "colorTemp": "3000K/6500K/RGB", "ipRating": "IP68", "dimensions": "D170xH60mm" , "image": "/products/den-am-nuoc-underwater.jpg" }
+      {
+        "sapCode": "LTS-UW18",
+        "power": "18W",
+        "voltage": "DC24V",
+        "colorTemp": "3000K/6500K/RGB",
+        "ipRating": "IP68",
+        "dimensions": "D170xH60mm",
+        "image": "/products/den-am-nuoc-underwater.png"
+      }
     ]
   },
   {
@@ -599,9 +806,17 @@
     "unit": "Bộ",
     "price": 320000,
     "description": "Đèn trang trí gắn tường ngoài trời, hắt sáng lên/xuống tạo điểm nhấn kiến trúc mặt tiền, hành lang.",
-    "image": "/products/den-gan-tuong-wall.jpg",
+    "image": "/products/den-gan-tuong-wall.png",
     "variants": [
-      { "sapCode": "LTS-WL12", "power": "12W", "voltage": "220-240VAC", "colorTemp": "3000K", "ipRating": "IP65", "dimensions": "H180xW60mm", "image": "/products/den-gan-tuong-wall.jpg" }
+      {
+        "sapCode": "LTS-WL12",
+        "power": "12W",
+        "voltage": "220-240VAC",
+        "colorTemp": "3000K",
+        "ipRating": "IP65",
+        "dimensions": "H180xW60mm",
+        "image": "/products/den-gan-tuong-wall.png"
+      }
     ]
   },
   {
@@ -613,9 +828,18 @@
     "unit": "Bộ",
     "price": 1500000,
     "description": "Đèn đường LED hiệu suất cao, chiếu sáng đường giao thông, khu công nghiệp, ngõ xóm.",
-    "image": "/products/den-duong-led-street.jpg",
+    "image": "/products/den-duong-led-street.png",
     "variants": [
-      { "sapCode": "ST150ME1H-PW", "power": "150W", "voltage": "100-277VAC", "colorTemp": "3000K/4000K/6500K", "ipRating": "IP66", "dimensions": "L615xW262xH109mm", "note": "Quang thông 22.500lm, hiệu suất 150lm/W", "image": "/products/den-duong-led-street.jpg" }
+      {
+        "sapCode": "ST150ME1H-PW",
+        "power": "150W",
+        "voltage": "100-277VAC",
+        "colorTemp": "3000K/4000K/6500K",
+        "ipRating": "IP66",
+        "dimensions": "L615xW262xH109mm",
+        "note": "Quang thông 22.500lm, hiệu suất 150lm/W",
+        "image": "/products/den-duong-led-street.png"
+      }
     ]
   },
   {
@@ -627,7 +851,7 @@
     "unit": "Bộ",
     "price": 1900000,
     "description": "Đèn đường tích hợp tấm pin mặt trời và pin lưu trữ, tự sạc ban ngày, tự bật ban đêm — có điều khiển từ xa.",
-    "image": "/products/den-duong-nang-luong-mat-troi.jpg",
+    "image": "/products/den-duong-nang-luong-mat-troi.png",
     "variants": [
       {
         "sapCode": "LTS-SST120",
@@ -637,7 +861,7 @@
         "ipRating": "IP65",
         "dimensions": "Đèn 500x206x80mm, tấm pin 350x530x17mm",
         "note": "Lắp ở độ cao 4-5m, cảm biến chuyển động, điều khiển từ xa",
-        "image": "/products/den-duong-nang-luong-mat-troi.jpg"
+        "image": "/products/den-duong-nang-luong-mat-troi.png"
       }
     ]
   },
@@ -651,7 +875,14 @@
     "price": 850000,
     "description": "Đèn pha tích hợp pin mặt trời, chiếu sáng sân bãi/công trình không cần đi dây điện.",
     "variants": [
-      { "sapCode": "LTS-SFL60", "power": "60W", "voltage": "Pin mặt trời tích hợp", "colorTemp": "6000K", "ipRating": "IP65", "dimensions": "L300xW200xH30mm" }
+      {
+        "sapCode": "LTS-SFL60",
+        "power": "60W",
+        "voltage": "Pin mặt trời tích hợp",
+        "colorTemp": "6000K",
+        "ipRating": "IP65",
+        "dimensions": "L300xW200xH30mm"
+      }
     ]
   },
   {
@@ -664,7 +895,14 @@
     "price": 420000,
     "description": "Đèn gắn tường tích hợp pin mặt trời, cảm biến sáng tối tự động, phù hợp lối đi, ban công, sân vườn.",
     "variants": [
-      { "sapCode": "LTS-SWL10", "power": "10W", "voltage": "Pin mặt trời tích hợp", "colorTemp": "6000K", "ipRating": "IP65", "dimensions": "H150xW90mm" }
+      {
+        "sapCode": "LTS-SWL10",
+        "power": "10W",
+        "voltage": "Pin mặt trời tích hợp",
+        "colorTemp": "6000K",
+        "ipRating": "IP65",
+        "dimensions": "H150xW90mm"
+      }
     ]
   },
   {
@@ -677,7 +915,14 @@
     "price": 380000,
     "description": "Đèn cắm sân vườn tích hợp pin mặt trời, tự động bật sáng khi trời tối, không cần đi dây điện.",
     "variants": [
-      { "sapCode": "LTS-SGL06", "power": "6W", "voltage": "Pin mặt trời tích hợp", "colorTemp": "3000K/6000K", "ipRating": "IP65", "dimensions": "H400mm (kèm cọc cắm)" }
+      {
+        "sapCode": "LTS-SGL06",
+        "power": "6W",
+        "voltage": "Pin mặt trời tích hợp",
+        "colorTemp": "3000K/6000K",
+        "ipRating": "IP65",
+        "dimensions": "H400mm (kèm cọc cắm)"
+      }
     ]
   },
   {
@@ -691,7 +936,16 @@
     "description": "Đèn chùm pha lê cao cấp, điểm nhấn sang trọng cho phòng khách, sảnh biệt thự, khách sạn. Thiết kế và kích thước tuỳ theo không gian lắp đặt.",
     "image": "/products/den-chum-trang-tri.jpg",
     "variants": [
-      { "sapCode": "LTS-CHUM-01", "power": "Tuỳ số bóng", "voltage": "220-240VAC", "colorTemp": "2700K/3000K", "ipRating": "IP20", "dimensions": "Theo yêu cầu thiết kế", "note": "Giá tham khảo, báo giá chính xác theo mẫu và kích thước thực tế", "image": "/products/den-chum-trang-tri.jpg" }
+      {
+        "sapCode": "LTS-CHUM-01",
+        "power": "Tuỳ số bóng",
+        "voltage": "220-240VAC",
+        "colorTemp": "2700K/3000K",
+        "ipRating": "IP20",
+        "dimensions": "Theo yêu cầu thiết kế",
+        "note": "Giá tham khảo, báo giá chính xác theo mẫu và kích thước thực tế",
+        "image": "/products/den-chum-trang-tri.jpg"
+      }
     ]
   },
   {
@@ -703,9 +957,18 @@
     "unit": "Bộ",
     "price": 450000,
     "description": "Đèn chỉ dẫn lối thoát hiểm, tự động sáng khi mất điện, bắt buộc trang bị cho chung cư, văn phòng, nhà xưởng theo quy định PCCC.",
-    "image": "/products/den-chi-dan-thoat-nan.jpg",
+    "image": "/products/den-chi-dan-thoat-nan.png",
     "variants": [
-      { "sapCode": "TEX 300S", "power": "3.9W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP40", "dimensions": "L347xW38xH244mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-chi-dan-thoat-nan.jpg" }
+      {
+        "sapCode": "TEX 300S",
+        "power": "3.9W LED",
+        "voltage": "240VAC 50Hz",
+        "colorTemp": "—",
+        "ipRating": "IP40",
+        "dimensions": "L347xW38xH244mm",
+        "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium",
+        "image": "/products/den-chi-dan-thoat-nan.png"
+      }
     ]
   },
   {
@@ -717,9 +980,18 @@
     "unit": "Bộ",
     "price": 380000,
     "description": "Đèn sự cố âm trần, tự động chiếu sáng khi mất điện, phù hợp hành lang, cầu thang thoát hiểm.",
-    "image": "/products/den-su-co-am-tran.jpg",
+    "image": "/products/den-su-co-am-tran.png",
     "variants": [
-      { "sapCode": "TTH 312", "power": "3W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP20", "dimensions": "D95xH88mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-su-co-am-tran.jpg" }
+      {
+        "sapCode": "TTH 312",
+        "power": "3W LED",
+        "voltage": "240VAC 50Hz",
+        "colorTemp": "—",
+        "ipRating": "IP20",
+        "dimensions": "D95xH88mm",
+        "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium",
+        "image": "/products/den-su-co-am-tran.png"
+      }
     ]
   },
   {
@@ -731,9 +1003,18 @@
     "unit": "Bộ",
     "price": 380000,
     "description": "Đèn sự cố gắn nổi trần/tường, tự động chiếu sáng khi mất điện, dễ lắp đặt cho công trình có sẵn.",
-    "image": "/products/den-su-co-gan-noi.jpg",
+    "image": "/products/den-su-co-gan-noi.png",
     "variants": [
-      { "sapCode": "TTH 312", "power": "3W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP20", "dimensions": "D88xH95mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-su-co-gan-noi.jpg" }
+      {
+        "sapCode": "TTH 312",
+        "power": "3W LED",
+        "voltage": "240VAC 50Hz",
+        "colorTemp": "—",
+        "ipRating": "IP20",
+        "dimensions": "D88xH95mm",
+        "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium",
+        "image": "/products/den-su-co-gan-noi.png"
+      }
     ]
   },
   {
@@ -745,9 +1026,18 @@
     "unit": "Bộ",
     "price": 480000,
     "description": "Đèn sự cố dạng 2 đầu pha xoay hướng, chiếu sáng diện rộng khi mất điện, thường lắp ở hành lang, gara, nhà xưởng.",
-    "image": "/products/den-su-co-treo-tuong.jpg",
+    "image": "/products/den-su-co-treo-tuong.png",
     "variants": [
-      { "sapCode": "TEL 33", "power": "2x3W LED", "voltage": "240VAC 50Hz", "colorTemp": "—", "ipRating": "IP20", "dimensions": "L198xW82xH240mm", "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium", "image": "/products/den-su-co-treo-tuong.jpg" }
+      {
+        "sapCode": "TEL 33",
+        "power": "2x3W LED",
+        "voltage": "240VAC 50Hz",
+        "colorTemp": "—",
+        "ipRating": "IP20",
+        "dimensions": "L198xW82xH240mm",
+        "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium",
+        "image": "/products/den-su-co-treo-tuong.png"
+      }
     ]
   }
 ]

@@ -11,8 +11,8 @@ const POINTS = [
     ),
   },
   {
-    title: "Bảo hành 2 năm",
-    body: "Theo lỗi nhà sản xuất, hỗ trợ đổi trả nhanh chóng.",
+    title: "Bảo hành 3 năm",
+    body: "Bảo hành tại LUMORA, hỗ trợ đổi trả nhanh chóng.",
     icon: <path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm8-4v4l3 2" />,
   },
   {

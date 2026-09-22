@@ -43,9 +43,9 @@ export function ProductViewer3D({
   }
 
   return (
-    <div className="aspect-square w-full overflow-hidden rounded-sm">
+    <div className="aspect-square w-full overflow-hidden border border-border/70 bg-surface p-10">
       {image ? (
-        <Image src={image} alt={label} width={900} height={900} className="h-full w-full object-cover" priority />
+        <Image src={image} alt={label} width={900} height={900} className="h-full w-full object-contain" priority />
       ) : (
         <ProductPlaceholderImage label={label} className="h-full w-full" />
       )}
