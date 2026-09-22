@@ -29,6 +29,15 @@ export interface Testimonial {
   location: string;
 }
 
+export interface Project {
+  slug: string;
+  title: string;
+  category: string;
+  location: string;
+  description: string;
+  image: string;
+}
+
 export interface HomeContent {
   hero: {
     eyebrow: string;

@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "harmony-dalat-hotel",
+    "title": "Harmony Dalat Hotel",
+    "category": "Khách sạn",
+    "location": "Đà Lạt",
+    "description": "Chiếu sáng mặt tiền khách sạn, tôn lên kiến trúc và bảng hiệu về đêm.",
+    "image": "/projects/harmony-dalat-hotel.jpg"
+  },
+  {
+    "slug": "super-hotel",
+    "title": "Super Hotel",
+    "category": "Khách sạn",
+    "location": "Việt Nam",
+    "description": "Giải pháp chiếu sáng kiến trúc mặt đứng, làm nổi bật khối công trình cao tầng.",
+    "image": "/projects/super-hotel.jpg"
+  },
+  {
+    "slug": "apec-mandala-kim-boi",
+    "title": "Apec Mandala Retreats Kim Bôi",
+    "category": "Resort & Cảnh quan",
+    "location": "Kim Bôi, Hoà Bình",
+    "description": "Chiếu sáng cảnh quan tổng thể khu nghỉ dưỡng, hài hoà với thiên nhiên núi rừng.",
+    "image": "/projects/apec-mandala-kim-boi.jpg"
+  },
+  {
+    "slug": "apec-mandala-mui-ne",
+    "title": "Apec Mandala Wyndham Mũi Né",
+    "category": "Resort & Cảnh quan",
+    "location": "Mũi Né, Bình Thuận",
+    "description": "Chiếu sáng cảnh quan sân vườn, hồ bơi và lối đi cho khu nghỉ dưỡng ven biển.",
+    "image": "/projects/apec-mandala-mui-ne.jpg"
+  },
+  {
+    "slug": "park-kiara",
+    "title": "Park Kiara",
+    "category": "Resort & Cảnh quan",
+    "location": "Việt Nam",
+    "description": "Chiếu sáng khu vực hồ bơi và tiện ích ngoài trời của khu căn hộ cao cấp.",
+    "image": "/projects/park-kiara.jpg"
+  },
+  {
+    "slug": "dwight-school",
+    "title": "Dwight School Hà Nội",
+    "category": "Giáo dục & Thương mại",
+    "location": "Hà Nội",
+    "description": "Chiếu sáng khuôn viên và cảnh quan cho cơ sở giáo dục quốc tế.",
+    "image": "/projects/dwight-school.jpg"
+  },
+  {
+    "slug": "buv",
+    "title": "British University Vietnam (BUV)",
+    "category": "Giáo dục & Thương mại",
+    "location": "Hà Nội",
+    "description": "Hệ thống chiếu sáng khuôn viên trường đại học quốc tế, đảm bảo an toàn và thẩm mỹ.",
+    "image": "/projects/buv.jpg"
+  },
+  {
+    "slug": "marie-curie-school",
+    "title": "Marie Curie School",
+    "category": "Giáo dục & Thương mại",
+    "location": "Việt Nam",
+    "description": "Chiếu sáng ngoại thất và sân trường cho cơ sở giáo dục.",
+    "image": "/projects/marie-curie-school.jpg"
+  },
+  {
+    "slug": "intco-office",
+    "title": "Intco Office",
+    "category": "Giáo dục & Thương mại",
+    "location": "Việt Nam",
+    "description": "Chiếu sáng nội thất văn phòng hiện đại, tối ưu ánh sáng làm việc.",
+    "image": "/projects/intco-office.jpg"
+  },
+  {
+    "slug": "fuhai-cybertan",
+    "title": "Fuhai Cybertan",
+    "category": "Nhà xưởng",
+    "location": "Việt Nam",
+    "description": "Chiếu sáng tổng thể nhà xưởng sản xuất quy mô lớn.",
+    "image": "/projects/fuhai-cybertan.jpg"
+  }
+]

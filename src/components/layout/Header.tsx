@@ -7,6 +7,7 @@ import { useCart } from "@/components/cart/CartContext";
 
 const NAV_LINKS = [
   { href: "/san-pham", label: "Sản phẩm" },
+  { href: "/du-an", label: "Dự án" },
   { href: "/gioi-thieu", label: "Giới thiệu" },
   { href: "/lien-he", label: "Liên hệ" },
 ];

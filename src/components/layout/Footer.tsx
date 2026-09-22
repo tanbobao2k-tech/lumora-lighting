@@ -47,6 +47,11 @@ export function Footer() {
           <p className="text-[11px] font-medium tracking-[0.2em] text-accent-soft uppercase">Hỗ trợ</p>
           <ul className="mt-4 space-y-2 text-sm">
             <li>
+              <Link href="/du-an" className="text-ink-foreground/70 hover:text-accent-soft">
+                Dự án
+              </Link>
+            </li>
+            <li>
               <Link href="/gioi-thieu" className="text-ink-foreground/70 hover:text-accent-soft">
                 Giới thiệu
               </Link>

@@ -4,6 +4,7 @@ import { LogoutButton } from "@/components/admin/LogoutButton";
 const ADMIN_NAV = [
   { href: "/admin/san-pham", label: "Sản phẩm" },
   { href: "/admin/danh-muc", label: "Danh mục" },
+  { href: "/admin/du-an", label: "Dự án" },
   { href: "/admin/trang-chu", label: "Nội dung trang chủ" },
   { href: "/admin/thong-tin", label: "Thông tin shop" },
 ];
