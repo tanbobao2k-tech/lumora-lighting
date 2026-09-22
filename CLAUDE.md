@@ -28,6 +28,18 @@ từ website chính thức của LTS (ltslight.vn). Còn thiếu:
   dùng `ProductPlaceholderImage` fallback. Còn nhiều danh mục trên ltslight.vn/vi/san-pham.html
   chưa khai thác hết (ví dụ đèn Décor, đèn LED neon, LED Emergency Driver, đèn âm nước/gắn tường
   không có thông số chi tiết công khai) — có thể lấy thêm khi cần.
+- **Ảnh sản phẩm đã tách nền (PNG trong suốt)** — `content/products.json` trỏ `image` sang file
+  `.png` cùng tên trong `public/products/` (xử lý bằng `rembg`/u2net, script không còn lưu lại vì
+  chỉ chạy 1 lần thủ công). File `.jpg` gốc (có nền phẳng màu kem) vẫn giữ nguyên trong cùng thư
+  mục — Hero, CategoryGrid, FeatureSection, trang Giới thiệu vẫn cố định trỏ tới các `.jpg` này
+  (không đổi), vì ảnh PNG cắt nền chỉ hợp với khung thẻ sản phẩm/trang chi tiết
+  ([`ProductCard.tsx`](src/components/product/ProductCard.tsx),
+  [`ProductViewer3D.tsx`](src/components/product/ProductViewer3D.tsx) — 2 nơi này đã đổi
+  `object-cover` → `object-contain` + thêm `bg-surface` để ảnh trong suốt hiển thị sạch). **Ảnh
+  admin tải lên mới qua `/api/admin/upload` sẽ KHÔNG tự động tách nền** — muốn tách nền ảnh mới,
+  cần xử lý thủ công bằng công cụ ngoài (rembg, remove.bg...) trước khi tải lên, hoặc chạy lại quy
+  trình tương tự trên máy có Python + rembg. Riêng `den-chum-trang-tri.jpg` (ảnh phòng khách) cố
+  tình không tách nền vì đó là ảnh bối cảnh, không phải ảnh sản phẩm đơn lẻ trên nền phẳng.
 - **Ảnh sản phẩm** — trích xuất trực tiếp từ ảnh gốc nhúng trong file Excel báo giá LTS (chuyển
   `.xls` → `.xlsx` qua Excel COM để lấy ảnh chất lượng cao trong `xl/media/`, khớp từng ảnh với
   đúng SKU bằng mắt), đặt tại `public/products/*.jpg` (ghép nền màu kem đồng bộ UI). Vẫn có 1-2
@@ -53,6 +65,19 @@ từ website chính thức của LTS (ltslight.vn). Còn thiếu:
   Silicon Project, Intco Factory) vì ảnh cho thấy công trình **đang thi công dở dang**, không phù
   hợp với yêu cầu "hình đã hoàn thiện" — nếu 2 công trình đó đã xong, có thể thêm lại qua
   `/admin/du-an` khi có ảnh hoàn thiện thật.
+- **Trang Triết lý kinh doanh** (`/triet-ly-kinh-doanh`, [`content/philosophy.json`](content/philosophy.json))
+  — chân dung thật của giám đốc Bùi Ngọc Tân (`public/founder-portrait.jpg`, người dùng gửi trực
+  tiếp) + câu triết lý và đoạn văn do agent tự viết theo định hướng "sản phẩm chất lượng cao" người
+  dùng đưa ra, có chữ ký "Bùi Ngọc Tân — Giám đốc" cuối trang. **Nội dung quote/đoạn văn là do agent
+  soạn, chưa phải lời của anh Tân** — nên đọc lại và chỉnh sửa cho đúng giọng văn cá nhân trước khi
+  công khai, vì trang này gắn tên và chữ ký thật nên độ chính xác/giọng điệu quan trọng hơn các nội
+  dung marketing khác. Sửa qua `/admin/triet-ly`.
+- **Bảo hành nâng từ 2 lên 3 năm** theo yêu cầu người dùng (badge trên Hero, trust bar, đoạn text
+  trong FeatureSection — cả `content/home.json` và [`FeatureSection.tsx`](src/components/home/FeatureSection.tsx),
+  điểm sau này cố định trong code không sửa qua admin được). Đã đổi nhãn từ "Bảo hành nhà sản xuất"
+  sang "Bảo hành LUMORA" vì 3 năm là cam kết riêng của shop, vượt quá mức 2 năm mà báo giá LTS ghi
+  — **cần xác nhận với LTS/chủ shop là có thực sự bảo hành được 3 năm không** trước khi giữ số liệu
+  này, tránh hứa hẹn sai với khách.
 
 ## Trang quản trị (/admin)
 
@@ -66,9 +91,10 @@ Có trang admin chỉnh sửa gần như mọi nội dung web mà không cần s
 - **Quản lý được**: sản phẩm (thêm/sửa/xoá, nhiều phiên bản/biến thể, tải ảnh lên) tại
   `/admin/san-pham`; danh mục (chỉ label/mô tả, không thêm/xoá vì 3 category id cố định trong
   `ProductCategory` type) tại `/admin/danh-muc`; dự án (thêm/sửa/xoá, tải ảnh lên) tại
-  `/admin/du-an`; thông tin shop (SĐT, địa chỉ, link bản đồ, Facebook/Messenger, thương hiệu phân
-  phối) tại `/admin/thong-tin`; nội dung trang chủ (hero, trust bar, feature points text,
-  testimonials) tại `/admin/trang-chu`.
+  `/admin/du-an`; triết lý kinh doanh (chân dung, quote, chữ ký) tại `/admin/triet-ly`; thông tin
+  shop (SĐT, địa chỉ, link bản đồ, Facebook/Messenger, thương hiệu phân phối) tại
+  `/admin/thong-tin`; nội dung trang chủ (hero, trust bar, feature points text, testimonials) tại
+  `/admin/trang-chu`.
 - **Dữ liệu lưu ở đâu**: file JSON trong `content/` (`products.json`, `categories.json`,
   `site.json`, `home.json`), đọc/ghi qua [`src/lib/content-store.ts`](src/lib/content-store.ts)
   bằng `fs` — **đồng bộ, chạy trên Node.js runtime**. Web đọc trực tiếp các file này ở mọi request
