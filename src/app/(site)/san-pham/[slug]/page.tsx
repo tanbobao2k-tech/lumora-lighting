@@ -1,14 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getProductBySlug, products } from "@/data/products";
-import { getCategoryLabel } from "@/data/categories";
+import { getProductBySlug, getProducts, getCategoryLabel } from "@/lib/content-store";
 import { ProductDetailView } from "@/components/product/ProductDetailView";
 import { ProductGrid } from "@/components/product/ProductGrid";
 
-export function generateStaticParams() {
-  return products.map((p) => ({ slug: p.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -29,6 +26,7 @@ export default async function ProductDetailPage({
   const product = getProductBySlug(slug);
   if (!product) notFound();
 
+  const products = getProducts();
   const related = products.filter((p) => p.category === product.category && p.slug !== product.slug).slice(0, 4);
 
   return (

@@ -5,16 +5,21 @@ import { FeaturedProducts } from "@/components/home/FeaturedProducts";
 import { FeatureSection } from "@/components/home/FeatureSection";
 import { Testimonials } from "@/components/home/Testimonials";
 import { BrandStrip } from "@/components/home/BrandStrip";
+import { getHomeContent } from "@/lib/content-store";
+
+export const dynamic = "force-dynamic";
 
 export default function HomePage() {
+  const content = getHomeContent();
+
   return (
     <>
-      <Hero />
-      <TrustBar />
+      <Hero content={content.hero} />
+      <TrustBar stats={content.trustStats} />
       <CategoryGrid />
       <FeaturedProducts />
-      <FeatureSection />
-      <Testimonials />
+      <FeatureSection content={content.feature} />
+      <Testimonials reviews={content.testimonials} />
       <BrandStrip />
     </>
   );

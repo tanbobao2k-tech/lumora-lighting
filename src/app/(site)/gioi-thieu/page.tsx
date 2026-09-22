@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
-import { SITE_INFO } from "@/components/layout/SITE_INFO";
+import { getSiteInfo } from "@/lib/content-store";
 
 export const metadata: Metadata = {
   title: "Giới thiệu — LUMORA",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function AboutPage() {
+  const SITE_INFO = getSiteInfo();
+
   return (
     <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
       <RevealOnScroll>

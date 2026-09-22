@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "eyebrow": "Chiếu sáng chính hãng",
+    "title": "Ánh sáng cho mọi không gian sống",
+    "subtitle": "LUMORA phân phối đèn chiếu sáng chính hãng Opple, Philips, Osram — từ đèn trong nhà, ngoài trời đến giải pháp năng lượng mặt trời, cho công trình và tổ ấm của bạn.",
+    "badgeValue": "2 năm",
+    "badgeLabel": "Bảo hành chính hãng",
+    "image": "/products/den-ong-bo-gan-noi_20w-den.jpg"
+  },
+  "trustStats": [
+    { "value": "100%", "label": "Hàng chính hãng" },
+    { "value": "2 năm", "label": "Bảo hành nhà sản xuất" },
+    { "value": "24h", "label": "Giao hàng nội thành" },
+    { "value": "4", "label": "Thương hiệu phân phối" }
+  ],
+  "feature": {
+    "eyebrow": "Vì sao chọn LUMORA",
+    "title": "Hàng chính hãng, bảo hành rõ ràng",
+    "body": "Toàn bộ sản phẩm được nhập chính hãng từ Opple, Philips, Osram — đầy đủ thông số kỹ thuật, bảo hành 2 năm theo lỗi nhà sản xuất. Đội ngũ tư vấn hỗ trợ chọn đúng loại đèn cho từng không gian, từ căn hộ đến công trình dự án.",
+    "image": "/products/den-linear-treo-tha_philips-30w.jpg"
+  },
+  "testimonials": [
+    {
+      "quote": "Đèn downlight Opple lắp cho cả căn hộ, ánh sáng đều và không bị chói. Tư vấn nhiệt độ màu rất kỹ trước khi mua.",
+      "author": "Anh Hùng",
+      "location": "Hoài Đức, Hà Nội"
+    },
+    {
+      "quote": "Đặt đèn cắm cỏ sân vườn, giao hàng đúng hẹn, đóng gói cẩn thận. Sản phẩm đúng như mô tả, sẽ ủng hộ tiếp.",
+      "author": "Chị Lan",
+      "location": "Hà Đông, Hà Nội"
+    },
+    {
+      "quote": "Mua cả lô đèn cho công trình, giá tốt và có xuất hoá đơn đầy đủ. Đội ngũ hỗ trợ kỹ thuật nhiệt tình.",
+      "author": "Anh Đức",
+      "location": "Nam Từ Liêm, Hà Nội"
+    }
+  ]
+}

@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import { SITE_INFO } from "@/components/layout/SITE_INFO";
+import { getSiteInfo } from "@/lib/content-store";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 
 export const metadata: Metadata = {
   title: "Liên hệ — LUMORA",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function ContactPage() {
+  const SITE_INFO = getSiteInfo();
+
   return (
     <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
       <RevealOnScroll>

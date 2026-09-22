@@ -1,9 +1,11 @@
 import Link from "next/link";
-import { categories } from "@/data/categories";
-import { SITE_INFO } from "./SITE_INFO";
+import { getCategories, getSiteInfo } from "@/lib/content-store";
 import { NewsletterForm } from "./NewsletterForm";
 
 export function Footer() {
+  const categories = getCategories();
+  const SITE_INFO = getSiteInfo();
+
   return (
     <footer className="mt-24 border-t border-border/70 bg-surface">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 border-b border-border/70 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">

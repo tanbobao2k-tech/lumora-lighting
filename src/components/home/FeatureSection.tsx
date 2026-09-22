@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
+import type { HomeContent } from "@/types/content";
 
 const POINTS = [
   {
@@ -21,29 +22,23 @@ const POINTS = [
   },
 ];
 
-export function FeatureSection() {
+export function FeatureSection({ content }: { content: HomeContent["feature"] }) {
   return (
     <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
       <div className="grid items-center gap-10 md:grid-cols-2">
         <RevealOnScroll className="aspect-[4/3] overflow-hidden rounded-sm md:order-2">
           <Image
-            src="/products/den-linear-treo-tha_philips-30w.jpg"
-            alt="Công nghệ LED tiết kiệm điện"
+            src={content.image}
+            alt={content.title}
             width={800}
             height={600}
             className="h-full w-full object-cover"
           />
         </RevealOnScroll>
         <RevealOnScroll delay={0.1} className="md:order-1">
-          <p className="text-xs tracking-[0.25em] text-muted uppercase">Vì sao chọn LUMORA</p>
-          <h2 className="mt-2 text-2xl font-semibold sm:text-3xl">
-            Hàng chính hãng, bảo hành rõ ràng
-          </h2>
-          <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
-            Toàn bộ sản phẩm được nhập chính hãng từ Opple, Philips, Osram — đầy đủ thông số kỹ
-            thuật, bảo hành 2 năm theo lỗi nhà sản xuất. Đội ngũ tư vấn hỗ trợ chọn đúng loại đèn
-            cho từng không gian, từ căn hộ đến công trình dự án.
-          </p>
+          <p className="text-xs tracking-[0.25em] text-muted uppercase">{content.eyebrow}</p>
+          <h2 className="mt-2 text-2xl font-semibold sm:text-3xl">{content.title}</h2>
+          <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">{content.body}</p>
 
           <div className="mt-8 space-y-5">
             {POINTS.map((point) => (

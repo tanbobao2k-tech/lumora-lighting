@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { categories } from "@/data/categories";
+import type { CategoryInfo } from "@/types/content";
 
-export function CategoryFilter() {
+export function CategoryFilter({ categories }: { categories: CategoryInfo[] }) {
   const searchParams = useSearchParams();
   const active = searchParams.get("danh-muc");
 

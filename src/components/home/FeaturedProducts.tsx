@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { products } from "@/data/products";
+import { getProducts } from "@/lib/content-store";
 import { ProductGrid } from "@/components/product/ProductGrid";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 
 export function FeaturedProducts() {
-  const featured = products.slice(0, 8);
+  const featured = getProducts().slice(0, 8);
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">

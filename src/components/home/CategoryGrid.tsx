@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { categories } from "@/data/categories";
+import { getCategories } from "@/lib/content-store";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 
 const CATEGORY_IMAGES: Record<string, string> = {
@@ -10,6 +10,8 @@ const CATEGORY_IMAGES: Record<string, string> = {
 };
 
 export function CategoryGrid() {
+  const categories = getCategories();
+
   return (
     <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
       <RevealOnScroll>

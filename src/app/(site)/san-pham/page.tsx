@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import { products } from "@/data/products";
-import { getCategoryLabel } from "@/data/categories";
+import { getProducts, getCategories, getCategoryLabel } from "@/lib/content-store";
 import type { ProductCategory } from "@/types/product";
 import { ProductGrid } from "@/components/product/ProductGrid";
 import { CategoryFilter } from "@/components/product/CategoryFilter";
@@ -9,6 +8,8 @@ import { CategoryFilter } from "@/components/product/CategoryFilter";
 export const metadata: Metadata = {
   title: "Sản phẩm — LUMORA",
 };
+
+export const dynamic = "force-dynamic";
 
 export default async function ProductListPage({
   searchParams,
@@ -19,9 +20,9 @@ export default async function ProductListPage({
   const categoryParam = params["danh-muc"];
   const category = Array.isArray(categoryParam) ? categoryParam[0] : categoryParam;
 
-  const filtered = category
-    ? products.filter((p) => p.category === category)
-    : products;
+  const products = getProducts();
+  const categories = getCategories();
+  const filtered = category ? products.filter((p) => p.category === category) : products;
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
@@ -32,7 +33,7 @@ export default async function ProductListPage({
 
       <div className="mt-6">
         <Suspense fallback={null}>
-          <CategoryFilter />
+          <CategoryFilter categories={categories} />
         </Suspense>
       </div>
 

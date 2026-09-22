@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { useCart } from "@/components/cart/CartContext";
-import { SITE_INFO } from "./SITE_INFO";
 
 const NAV_LINKS = [
   { href: "/san-pham", label: "Sản phẩm" },
@@ -12,7 +11,7 @@ const NAV_LINKS = [
   { href: "/lien-he", label: "Liên hệ" },
 ];
 
-export function Header() {
+export function Header({ brandName }: { brandName: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
   const { totalItems } = useCart();
@@ -21,7 +20,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-border/70 bg-background/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
         <Link href="/" className="text-lg font-semibold tracking-[0.2em]">
-          {SITE_INFO.brandName}
+          {brandName}
         </Link>
 
         <div className="flex items-center gap-8">

@@ -1,4 +1,4 @@
-import { SITE_INFO } from "./SITE_INFO";
+import { getSiteInfo } from "@/lib/content-store";
 
 const ICON_PROPS = {
   viewBox: "0 0 24 24",
@@ -33,28 +33,30 @@ function ZaloBadge() {
   );
 }
 
-const CONTACT_LINKS = [
-  {
-    label: "Gọi điện",
-    href: `tel:${SITE_INFO.phones[0]}`,
-    icon: <PhoneIcon />,
-    bg: "bg-foreground",
-  },
-  {
-    label: "Nhắn Zalo",
-    href: `https://zalo.me/${SITE_INFO.phones[0]}`,
-    icon: <ZaloBadge />,
-    bg: "bg-[#0068ff]",
-  },
-  {
-    label: "Nhắn Messenger",
-    href: SITE_INFO.messengerLink,
-    icon: <MessengerIcon />,
-    bg: "bg-[#0084ff]",
-  },
-];
-
 export function ContactIcons() {
+  const SITE_INFO = getSiteInfo();
+
+  const CONTACT_LINKS = [
+    {
+      label: "Gọi điện",
+      href: `tel:${SITE_INFO.phones[0]}`,
+      icon: <PhoneIcon />,
+      bg: "bg-foreground",
+    },
+    {
+      label: "Nhắn Zalo",
+      href: `https://zalo.me/${SITE_INFO.phones[0]}`,
+      icon: <ZaloBadge />,
+      bg: "bg-[#0068ff]",
+    },
+    {
+      label: "Nhắn Messenger",
+      href: SITE_INFO.messengerLink,
+      icon: <MessengerIcon />,
+      bg: "bg-[#0084ff]",
+    },
+  ];
+
   return (
     <div className="fixed bottom-24 right-5 z-40 flex flex-col gap-3 sm:bottom-8 sm:right-8">
       {CONTACT_LINKS.map((item) => (
