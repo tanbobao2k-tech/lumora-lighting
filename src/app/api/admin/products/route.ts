@@ -18,6 +18,6 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Slug đã tồn tại, chọn slug khác" }, { status: 409 });
   }
 
-  upsertProduct(product);
+  await upsertProduct(product);
   return NextResponse.json({ ok: true });
 }

@@ -8,10 +8,22 @@
     "image": "/products/den-ong-bo-gan-noi_20w-den.jpg"
   },
   "trustStats": [
-    { "value": "100%", "label": "Hàng chính hãng" },
-    { "value": "2 năm", "label": "Bảo hành nhà sản xuất" },
-    { "value": "24h", "label": "Giao hàng nội thành" },
-    { "value": "4", "label": "Thương hiệu phân phối" }
+    {
+      "value": "100%",
+      "label": "Hàng chính hãng"
+    },
+    {
+      "value": "2 năm",
+      "label": "Bảo hành nhà sản xuất"
+    },
+    {
+      "value": "24h",
+      "label": "Giao hàng nội thành"
+    },
+    {
+      "value": "4",
+      "label": "Thương hiệu phân phối"
+    }
   ],
   "feature": {
     "eyebrow": "Vì sao chọn LUMORA",

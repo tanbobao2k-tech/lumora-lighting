@@ -8,6 +8,6 @@ export async function GET() {
 
 export async function PUT(request: Request) {
   const categories: CategoryInfo[] = await request.json();
-  saveCategories(categories);
+  await saveCategories(categories);
   return NextResponse.json({ ok: true });
 }

@@ -17,12 +17,12 @@ export async function PUT(request: Request, { params }: { params: Promise<{ slug
     return NextResponse.json({ error: "Không tìm thấy sản phẩm" }, { status: 404 });
   }
 
-  upsertProduct(product, slug);
+  await upsertProduct(product, slug);
   return NextResponse.json({ ok: true });
 }
 
 export async function DELETE(_request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  deleteProduct(slug);
+  await deleteProduct(slug);
   return NextResponse.json({ ok: true });
 }

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import fs from "node:fs";
 import path from "node:path";
+import { commitFileToGithub, isGithubStorageEnabled } from "@/lib/github-content";
 
 const UPLOAD_DIR = path.join(process.cwd(), "public", "products");
 const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp"];
@@ -29,6 +30,16 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Chỉ hỗ trợ ảnh JPG, PNG, WEBP" }, { status: 400 });
   }
 
+  const buffer = Buffer.from(await file.arrayBuffer());
+
+  if (isGithubStorageEnabled()) {
+    const ext = path.extname(file.name) || ".jpg";
+    const base = slugifyFilename(file.name).replace(ext, "");
+    const filename = `${base}-${Date.now()}${ext}`;
+    await commitFileToGithub(`public/products/${filename}`, buffer.toString("base64"), true);
+    return NextResponse.json({ path: `/products/${filename}` });
+  }
+
   fs.mkdirSync(UPLOAD_DIR, { recursive: true });
 
   let filename = slugifyFilename(file.name);
@@ -43,7 +54,6 @@ export async function POST(request: Request) {
     counter += 1;
   }
 
-  const buffer = Buffer.from(await file.arrayBuffer());
   fs.writeFileSync(filePath, buffer);
 
   return NextResponse.json({ path: `/products/${filename}` });

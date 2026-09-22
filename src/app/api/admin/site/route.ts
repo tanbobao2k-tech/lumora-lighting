@@ -8,6 +8,6 @@ export async function GET() {
 
 export async function PUT(request: Request) {
   const info: SiteInfo = await request.json();
-  saveSiteInfo(info);
+  await saveSiteInfo(info);
   return NextResponse.json({ ok: true });
 }

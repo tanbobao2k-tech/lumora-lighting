@@ -40,20 +40,18 @@ body {
   font-family: var(--font-sans), "Noto Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* Nền lưới công nghệ mờ, phủ toàn trang, luôn nằm sau mọi nội dung */
+/* Nền ảnh công nghệ mờ, phủ toàn trang, luôn nằm sau mọi nội dung */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image:
-    linear-gradient(var(--accent) 1px, transparent 1px),
-    linear-gradient(90deg, var(--accent) 1px, transparent 1px),
-    radial-gradient(circle, var(--accent) 1.4px, transparent 1.4px);
-  background-size: 64px 64px, 64px 64px, 32px 32px;
-  background-position: -1px -1px, -1px -1px, -1px -1px;
-  opacity: 0.05;
+  background-image: url("/bg-tech.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.08;
 }
 
 body > * {

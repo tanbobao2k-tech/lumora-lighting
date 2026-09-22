@@ -8,6 +8,6 @@ export async function GET() {
 
 export async function PUT(request: Request) {
   const content: HomeContent = await request.json();
-  saveHomeContent(content);
+  await saveHomeContent(content);
   return NextResponse.json({ ok: true });
 }
