@@ -47,6 +47,12 @@ từ website chính thức của LTS (ltslight.vn). Còn thiếu:
   [`NewsletterForm.tsx`](src/components/layout/NewsletterForm.tsx) mới chỉ là UI, form đăng ký
   chưa nối vào dịch vụ email marketing thật nào — hiện chỉ hiện thông báo cảm ơn ở client, email
   nhập vào không được lưu lại ở đâu cả.
+- **Trang Dự án** (`/du-an`, [`content/projects.json`](content/projects.json)) — 10 công trình lấy
+  từ https://ltslight.vn/vi/du-an.html (ảnh + tên dự án là thật, mô tả ngắn do agent tự viết dựa
+  trên tên/loại công trình vì trang gốc không có mô tả chi tiết). Đã bỏ 2/12 dự án gốc (Global
+  Silicon Project, Intco Factory) vì ảnh cho thấy công trình **đang thi công dở dang**, không phù
+  hợp với yêu cầu "hình đã hoàn thiện" — nếu 2 công trình đó đã xong, có thể thêm lại qua
+  `/admin/du-an` khi có ảnh hoàn thiện thật.
 
 ## Trang quản trị (/admin)
 
@@ -59,9 +65,10 @@ Có trang admin chỉnh sửa gần như mọi nội dung web mà không cần s
   tên quy ước từ `middleware.ts` sang `proxy.ts`).
 - **Quản lý được**: sản phẩm (thêm/sửa/xoá, nhiều phiên bản/biến thể, tải ảnh lên) tại
   `/admin/san-pham`; danh mục (chỉ label/mô tả, không thêm/xoá vì 3 category id cố định trong
-  `ProductCategory` type) tại `/admin/danh-muc`; thông tin shop (SĐT, địa chỉ, link bản đồ,
-  Facebook/Messenger, thương hiệu phân phối) tại `/admin/thong-tin`; nội dung trang chủ (hero,
-  trust bar, feature points text, testimonials) tại `/admin/trang-chu`.
+  `ProductCategory` type) tại `/admin/danh-muc`; dự án (thêm/sửa/xoá, tải ảnh lên) tại
+  `/admin/du-an`; thông tin shop (SĐT, địa chỉ, link bản đồ, Facebook/Messenger, thương hiệu phân
+  phối) tại `/admin/thong-tin`; nội dung trang chủ (hero, trust bar, feature points text,
+  testimonials) tại `/admin/trang-chu`.
 - **Dữ liệu lưu ở đâu**: file JSON trong `content/` (`products.json`, `categories.json`,
   `site.json`, `home.json`), đọc/ghi qua [`src/lib/content-store.ts`](src/lib/content-store.ts)
   bằng `fs` — **đồng bộ, chạy trên Node.js runtime**. Web đọc trực tiếp các file này ở mọi request
