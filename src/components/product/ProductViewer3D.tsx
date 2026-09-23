@@ -42,10 +42,21 @@ export function ProductViewer3D({
     );
   }
 
+  const isPhoto = /\.jpe?g$/i.test(image ?? "");
+
   return (
-    <div className="aspect-square w-full overflow-hidden border border-border/70 bg-surface p-10">
+    <div
+      className={`aspect-square w-full overflow-hidden border border-border/70 ${isPhoto ? "" : "bg-surface p-10"}`}
+    >
       {image ? (
-        <Image src={image} alt={label} width={900} height={900} className="h-full w-full object-contain" priority />
+        <Image
+          src={image}
+          alt={label}
+          width={900}
+          height={900}
+          className={`h-full w-full ${isPhoto ? "object-cover" : "object-contain"}`}
+          priority
+        />
       ) : (
         <ProductPlaceholderImage label={label} className="h-full w-full" />
       )}

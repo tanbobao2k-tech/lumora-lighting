@@ -6,17 +6,20 @@ import { ProductPlaceholderImage } from "./ProductPlaceholderImage";
 
 export function ProductCard({ product }: { product: Product }) {
   const hasMultipleVariants = product.variants.length > 1;
+  const isPhoto = /\.jpe?g$/i.test(product.image ?? "");
 
   return (
     <Link href={`/san-pham/${product.slug}`} className="group block">
-      <div className="aspect-square overflow-hidden border border-border/70 bg-surface p-6 transition-colors duration-300 group-hover:border-accent-soft">
+      <div
+        className={`aspect-square overflow-hidden border border-border/70 transition-colors duration-300 group-hover:border-accent-soft ${isPhoto ? "" : "bg-surface p-6"}`}
+      >
         {product.image ? (
           <Image
             src={product.image}
             alt={product.name}
             width={900}
             height={900}
-            className="h-full w-full object-contain transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+            className={`h-full w-full transition-transform duration-700 ease-out group-hover:scale-[1.04] ${isPhoto ? "object-cover" : "object-contain"}`}
           />
         ) : (
           <ProductPlaceholderImage
