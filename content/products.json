@@ -39,7 +39,7 @@
     "unit": "Bộ",
     "price": 490000,
     "description": "Đèn ống bơ gắn nổi, khả năng chống nước IP65, thường lắp đặt tại mái sảnh đón tiếp, ban công, lô gia.",
-    "image": "/products/den-ong-bo-gan-noi_10w-trang.png",
+    "image": "/products/den-ong-bo-gan-noi_10w-trang.jpg",
     "variants": [
       {
         "sapCode": "715000007500",
@@ -50,7 +50,7 @@
         "dimensions": "D75xH100mm",
         "finish": "Trắng",
         "note": "Hàng dự án",
-        "image": "/products/den-ong-bo-gan-noi_10w-trang.png"
+        "image": "/products/den-ong-bo-gan-noi_10w-trang.jpg"
       },
       {
         "sapCode": "715000007700",
@@ -74,7 +74,7 @@
     "unit": "Bộ",
     "price": 85000,
     "description": "Đèn downlight lắp âm trần, đa dạng công suất và kiểu chóa, phù hợp văn phòng, chung cư, khách sạn.",
-    "image": "/products/den-downlight-am-tran_9w.png",
+    "image": "/products/den-downlight-am-tran_philips-20w.jpg",
     "variants": [
       {
         "sapCode": "540001281900",
@@ -123,9 +123,10 @@
         "dimensions": "D170xH82mm (khoét D150mm)",
         "finish": "Philips",
         "note": "Đèn chóa sâu, ưu tiên lắp sảnh cao 3.5-4m",
-        "image": "/products/den-downlight-am-tran_philips-20w.png"
+        "image": "/products/den-downlight-am-tran_philips-20w.jpg"
       }
-    ]
+    ],
+    "lifestyleImage": "/products/lifestyle/den-downlight-am-tran.jpg"
   },
   {
     "slug": "den-led-day",
@@ -364,7 +365,7 @@
     "unit": "Bộ",
     "price": 500000,
     "description": "Quạt vận hành bằng năng lượng mặt trời, giải pháp làm mát tiết kiệm điện cho không gian ngoài trời.",
-    "image": "/products/quat-nang-luong_chan-quy.png",
+    "image": "/products/quat-nang-luong_chan-quy.jpg",
     "variants": [
       {
         "sapCode": "SPS-040",
@@ -373,7 +374,7 @@
         "colorTemp": "—",
         "ipRating": "—",
         "dimensions": "Quạt chân quỳ",
-        "image": "/products/quat-nang-luong_chan-quy.png"
+        "image": "/products/quat-nang-luong_chan-quy.jpg"
       },
       {
         "sapCode": "SPS-042",
@@ -382,7 +383,7 @@
         "colorTemp": "—",
         "ipRating": "—",
         "dimensions": "Quạt đứng",
-        "image": "/products/quat-nang-luong_dung.png"
+        "image": "/products/quat-nang-luong_dung.jpg"
       }
     ]
   },
@@ -395,7 +396,7 @@
     "unit": "Bộ",
     "price": 120000,
     "description": "Đèn spotlight âm trần chiếu điểm, xoay chỉnh hướng chiếu linh hoạt, phù hợp rọi trưng bày, hành lang, phòng khách.",
-    "image": "/products/den-spotlight-am-tran.png",
+    "image": "/products/den-spotlight-am-tran.jpg",
     "variants": [
       {
         "sapCode": "LTS-SP06",
@@ -404,7 +405,7 @@
         "colorTemp": "2700K/3000K/4000K",
         "ipRating": "IP20",
         "dimensions": "D76xH87mm (khoét D75mm)",
-        "image": "/products/den-spotlight-am-tran.png"
+        "image": "/products/den-spotlight-am-tran.jpg"
       },
       {
         "sapCode": "LTS-SP20",
@@ -413,7 +414,7 @@
         "colorTemp": "2700K/3000K/4000K",
         "ipRating": "IP44",
         "dimensions": "D110xH115mm (khoét D102mm)",
-        "image": "/products/den-spotlight-am-tran.png"
+        "image": "/products/den-spotlight-am-tran.jpg"
       }
     ]
   },
@@ -756,7 +757,7 @@
     "unit": "Bộ",
     "price": 550000,
     "description": "Đèn hắt sáng từ dưới lên tán cây, tạo điểm nhấn cảnh quan ban đêm cho sân vườn, biệt thự.",
-    "image": "/products/den-hat-cay-tree-uplight.png",
+    "image": "/products/den-hat-cay-tree-uplight.jpg",
     "variants": [
       {
         "sapCode": "LTS-TU09",
@@ -765,7 +766,7 @@
         "colorTemp": "3000K/4000K",
         "ipRating": "IP66",
         "dimensions": "D190xH265mm",
-        "image": "/products/den-hat-cay-tree-uplight.png"
+        "image": "/products/den-hat-cay-tree-uplight.jpg"
       },
       {
         "sapCode": "LTS-TU60",
@@ -775,7 +776,7 @@
         "ipRating": "IP66",
         "dimensions": "D190xH265mm",
         "note": "Góc chiếu tuỳ chọn 3-60 độ",
-        "image": "/products/den-hat-cay-tree-uplight.png"
+        "image": "/products/den-hat-cay-tree-uplight.jpg"
       }
     ]
   },
