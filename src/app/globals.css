@@ -50,12 +50,15 @@ body {
   font-family: var(--font-sans), "Noto Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* Kết cấu nền mờ, tinh tế — không lấn át tông màu sang trọng chủ đạo */
+/* Kết cấu nền mờ, tinh tế — không lấn át tông màu sang trọng chủ đạo.
+   z-index âm để luôn nằm dưới mọi nội dung mà không cần đụng tới
+   position/z-index của các phần tử khác (từng làm hỏng vị trí "fixed"
+   của icon liên hệ và thanh giỏ hàng dính đáy trên mobile). */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
   background-image: url("/bg-tech.jpg");
   background-size: cover;
@@ -63,11 +66,6 @@ body::before {
   background-repeat: no-repeat;
   filter: grayscale(1) contrast(0.9);
   opacity: 0.05;
-}
-
-body > * {
-  position: relative;
-  z-index: 1;
 }
 
 .font-serif {
