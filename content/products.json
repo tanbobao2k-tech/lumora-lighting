@@ -77,6 +77,17 @@
     "image": "/products/den-downlight-am-tran_philips-20w.jpg",
     "variants": [
       {
+        "sapCode": "DN350B LED20/CW",
+        "power": "20W",
+        "voltage": "220-240VAC",
+        "colorTemp": "6500K",
+        "ipRating": "IP20/IP54",
+        "dimensions": "D170xH82mm (khoét D150mm)",
+        "finish": "Philips",
+        "note": "Đèn chóa sâu, ưu tiên lắp sảnh cao 3.5-4m",
+        "image": "/products/den-downlight-am-tran_philips-20w.jpg"
+      },
+      {
         "sapCode": "540001281900",
         "power": "9W",
         "voltage": "220-240VAC",
@@ -113,17 +124,6 @@
         "dimensions": "D140xH48mm (khoét D125mm)",
         "note": "Ưu tiên lắp sảnh cao 3.5-4m",
         "image": "/products/den-downlight-am-tran_20w-choa.png"
-      },
-      {
-        "sapCode": "DN350B LED20/CW",
-        "power": "20W",
-        "voltage": "220-240VAC",
-        "colorTemp": "6500K",
-        "ipRating": "IP20/IP54",
-        "dimensions": "D170xH82mm (khoét D150mm)",
-        "finish": "Philips",
-        "note": "Đèn chóa sâu, ưu tiên lắp sảnh cao 3.5-4m",
-        "image": "/products/den-downlight-am-tran_philips-20w.jpg"
       }
     ],
     "lifestyleImage": "/products/lifestyle/den-downlight-am-tran.jpg"
