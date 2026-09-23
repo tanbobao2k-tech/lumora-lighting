@@ -181,7 +181,8 @@
         "note": "Hàng dự án",
         "image": "/products/den-linear-treo-tha_philips-30w.png"
       }
-    ]
+    ],
+    "lifestyleImage": "/products/lifestyle/den-linear-treo-tha.jpg"
   },
   {
     "slug": "mang-den-tuyp-gan-tuong",
@@ -282,7 +283,8 @@
         "note": "Gắn nổi tường",
         "image": "/products/den-doc-sach_lct067a-wt.png"
       }
-    ]
+    ],
+    "lifestyleImage": "/products/lifestyle/den-doc-sach.jpg"
   },
   {
     "slug": "den-cam-co-san-vuon",
@@ -350,7 +352,8 @@
         "dimensions": "D60xH65mm (đế D46xH80mm)",
         "image": "/products/den-am-dat_ig7078.png"
       }
-    ]
+    ],
+    "lifestyleImage": "/products/lifestyle/den-am-dat.jpg"
   },
   {
     "slug": "quat-nang-luong-mat-troi",
@@ -475,7 +478,8 @@
         "dimensions": "D70xL95mm",
         "image": "/products/den-roi-ray.png"
       }
-    ]
+    ],
+    "lifestyleImage": "/products/lifestyle/den-roi-ray.jpg"
   },
   {
     "slug": "den-batten-choa-reflector",
