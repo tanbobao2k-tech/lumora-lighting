@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getCategories, getSiteInfo } from "@/lib/content-store";
 import { NewsletterForm } from "./NewsletterForm";
@@ -20,7 +21,10 @@ export function Footer() {
 
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-4">
         <div>
-          <p className="font-serif text-xl tracking-[0.2em]">{SITE_INFO.brandName}</p>
+          <div className="flex items-center gap-3">
+            <Image src="/logo-icon.png" alt="" aria-hidden width={32} height={46} className="h-8 w-auto" />
+            <p className="font-serif text-xl tracking-[0.2em]">{SITE_INFO.brandName}</p>
+          </div>
           <p className="mt-3 text-sm text-ink-foreground/55">{SITE_INFO.brandTagline}</p>
           <p className="mt-6 text-sm text-ink-foreground/55">
             Phân phối: {SITE_INFO.distributedBrands.join(" · ")}
