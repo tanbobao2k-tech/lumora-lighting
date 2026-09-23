@@ -126,7 +126,7 @@
         "image": "/products/den-downlight-am-tran_20w-choa.png"
       }
     ],
-    "lifestyleImage": "/products/lifestyle/den-downlight-am-tran.jpg"
+    "lifestyleImage": "/products/lifestyle/den-downlight-am-tran-2.jpg"
   },
   {
     "slug": "den-led-day",
@@ -137,7 +137,7 @@
     "unit": "Cuộn",
     "price": 2187000,
     "description": "Đèn led dây trang trí, thường lắp đặt tại khu vực trần giật cấp.",
-    "image": "/products/den-led-day_9w.png",
+    "image": "/products/den-led-day.jpg",
     "variants": [
       {
         "sapCode": "504000013110",
@@ -146,7 +146,7 @@
         "colorTemp": "4000K",
         "ipRating": "IP20",
         "dimensions": "1 cuộn dài 50m (đã bao gồm nguồn)",
-        "image": "/products/den-led-day_9w.png"
+        "image": "/products/den-led-day.jpg"
       }
     ]
   },
@@ -575,7 +575,7 @@
     "unit": "Bộ",
     "price": 1200000,
     "description": "Đèn High Bay treo trần cao, ánh sáng mạnh hiệu suất cao, phù hợp nhà xưởng, nhà kho trần cao 6-12m.",
-    "image": "/products/den-highbay.png",
+    "image": "/products/den-highbay.jpg",
     "variants": [
       {
         "sapCode": "LTS-HB100",
@@ -585,7 +585,7 @@
         "ipRating": "IP65",
         "dimensions": "D400xH150mm",
         "note": "Hiệu suất ~150lm/W",
-        "image": "/products/den-highbay.png"
+        "image": "/products/den-highbay.jpg"
       },
       {
         "sapCode": "LTS-HB200",
@@ -595,7 +595,7 @@
         "ipRating": "IP65",
         "dimensions": "D450xH180mm",
         "note": "Hiệu suất ~160lm/W",
-        "image": "/products/den-highbay.png"
+        "image": "/products/den-highbay.jpg"
       }
     ]
   },
@@ -671,7 +671,7 @@
     "unit": "Bộ",
     "price": 2500000,
     "description": "Đèn cột trang trí sân vườn, công viên, khuôn viên biệt thự — ánh sáng toả đều 360 độ.",
-    "image": "/products/den-pole-light.png",
+    "image": "/products/den-pole-light.jpg",
     "variants": [
       {
         "sapCode": "LTS-PL30",
@@ -680,7 +680,7 @@
         "colorTemp": "3000K/4000K/6500K",
         "ipRating": "IP66",
         "dimensions": "D422xW422xH539mm",
-        "image": "/products/den-pole-light.png"
+        "image": "/products/den-pole-light.jpg"
       },
       {
         "sapCode": "LTS-PL90",
@@ -690,7 +690,7 @@
         "ipRating": "IP66",
         "dimensions": "D422xW422xH539mm",
         "note": "Quang thông 13.500lm",
-        "image": "/products/den-pole-light.png"
+        "image": "/products/den-pole-light.jpg"
       }
     ]
   },
@@ -703,7 +703,7 @@
     "unit": "Bộ",
     "price": 1800000,
     "description": "Đèn pha công suất lớn chiếu sáng sân bãi, công trình, biển quảng cáo, sân thể thao.",
-    "image": "/products/den-pha-led.png",
+    "image": "/products/den-pha-led.jpg",
     "variants": [
       {
         "sapCode": "LTS-FL500",
@@ -712,7 +712,7 @@
         "colorTemp": "3000K/4000K/5700K/6500K",
         "ipRating": "IP66",
         "dimensions": "L470xH520xW127mm",
-        "image": "/products/den-pha-led.png"
+        "image": "/products/den-pha-led.jpg"
       },
       {
         "sapCode": "LTS-FL1200",
@@ -721,7 +721,7 @@
         "colorTemp": "3000K/4000K/5700K/6500K",
         "ipRating": "IP66",
         "dimensions": "L920xH558xW127mm",
-        "image": "/products/den-pha-led.png"
+        "image": "/products/den-pha-led.jpg"
       }
     ]
   },
@@ -734,7 +734,7 @@
     "unit": "Bộ",
     "price": 650000,
     "description": "Đèn nấm chiếu sáng lối đi, sân vườn, dạng cắm cọc thấp, ánh sáng dịu toả rộng quanh gốc đèn.",
-    "image": "/products/den-nam-bollard.png",
+    "image": "/products/den-nam-bollard.jpg",
     "variants": [
       {
         "sapCode": "LTS-BL20",
@@ -744,7 +744,7 @@
         "ipRating": "IP66",
         "dimensions": "D160xH225mm",
         "note": "Chống va đập IK08",
-        "image": "/products/den-nam-bollard.png"
+        "image": "/products/den-nam-bollard.jpg"
       }
     ]
   },
@@ -833,7 +833,7 @@
     "unit": "Bộ",
     "price": 1500000,
     "description": "Đèn đường LED hiệu suất cao, chiếu sáng đường giao thông, khu công nghiệp, ngõ xóm.",
-    "image": "/products/den-duong-led-street.png",
+    "image": "/products/den-duong-led-street.jpg",
     "variants": [
       {
         "sapCode": "ST150ME1H-PW",
@@ -843,7 +843,7 @@
         "ipRating": "IP66",
         "dimensions": "L615xW262xH109mm",
         "note": "Quang thông 22.500lm, hiệu suất 150lm/W",
-        "image": "/products/den-duong-led-street.png"
+        "image": "/products/den-duong-led-street.jpg"
       }
     ]
   },
@@ -951,7 +951,8 @@
         "note": "Giá tham khảo, báo giá chính xác theo mẫu và kích thước thực tế",
         "image": "/products/den-chum-trang-tri.jpg"
       }
-    ]
+    ],
+    "lifestyleImage": "/products/lifestyle/den-chum-trang-tri.jpg"
   },
   {
     "slug": "den-chi-dan-thoat-nan",
