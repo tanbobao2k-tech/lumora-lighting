@@ -26,13 +26,13 @@ export function FeatureSection({ content }: { content: HomeContent["feature"] })
   return (
     <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
       <div className="grid items-center gap-10 md:grid-cols-2">
-        <RevealOnScroll className="aspect-[4/3] overflow-hidden rounded-sm md:order-2">
+        <RevealOnScroll className="aspect-[4/3] overflow-hidden rounded-sm bg-ink md:order-2">
           <Image
             src={content.image}
             alt={content.title}
             width={800}
             height={600}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain object-right"
           />
         </RevealOnScroll>
         <RevealOnScroll delay={0.1} className="md:order-1">
