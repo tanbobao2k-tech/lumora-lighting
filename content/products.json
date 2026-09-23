@@ -522,7 +522,7 @@
     "unit": "Bóng",
     "price": 45000,
     "description": "Bóng đèn LED tuýp T8 thay thế bóng huỳnh quang cũ, tiết kiệm điện, lắp trực tiếp vào máng có sẵn.",
-    "image": "/products/bong-led-tube-t8.png",
+    "image": "/products/bong-led-tube-t8.jpg",
     "variants": [
       {
         "sapCode": "LTS-T8-600",
@@ -531,7 +531,7 @@
         "colorTemp": "3000K/4000K/6500K",
         "ipRating": "IP20",
         "dimensions": "L600xD28mm",
-        "image": "/products/bong-led-tube-t8.png"
+        "image": "/products/bong-led-tube-t8.jpg"
       },
       {
         "sapCode": "LTS-T8-1200",
@@ -540,7 +540,7 @@
         "colorTemp": "3000K/4000K/6500K",
         "ipRating": "IP20",
         "dimensions": "L1200xD28mm",
-        "image": "/products/bong-led-tube-t8.png"
+        "image": "/products/bong-led-tube-t8.jpg"
       }
     ]
   },
@@ -608,7 +608,7 @@
     "unit": "Bộ",
     "price": 380000,
     "description": "Máng đèn chống ẩm, chống bụi, chống côn trùng — thường lắp tầng hầm, nhà xe, khu vực ẩm ướt.",
-    "image": "/products/den-chong-am-tri-proof.png",
+    "image": "/products/den-chong-am-tri-proof.jpg",
     "variants": [
       {
         "sapCode": "LTS-TP20",
@@ -617,7 +617,7 @@
         "colorTemp": "3000K/4500K/6000K",
         "ipRating": "IP65",
         "dimensions": "L610mm",
-        "image": "/products/den-chong-am-tri-proof.png"
+        "image": "/products/den-chong-am-tri-proof.jpg"
       },
       {
         "sapCode": "LTS-TP40",
@@ -626,7 +626,7 @@
         "colorTemp": "3000K/4500K/6000K",
         "ipRating": "IP65",
         "dimensions": "L1221xW74xH64mm",
-        "image": "/products/den-chong-am-tri-proof.png"
+        "image": "/products/den-chong-am-tri-proof.jpg"
       },
       {
         "sapCode": "LTS-TP60",
@@ -636,7 +636,7 @@
         "ipRating": "IP65",
         "dimensions": "L1221xW74xH64mm",
         "note": "Có thể nối nhiều đèn liên tiếp",
-        "image": "/products/den-chong-am-tri-proof.png"
+        "image": "/products/den-chong-am-tri-proof.jpg"
       }
     ]
   },
@@ -649,7 +649,7 @@
     "unit": "Bộ",
     "price": 450000,
     "description": "Đèn LED quang phổ chuyên dụng hỗ trợ cây trồng trong nhà quang hợp, phù hợp trồng rau sạch, cây cảnh indoor.",
-    "image": "/products/den-ho-tro-tang-truong-thuc-vat.png",
+    "image": "/products/den-ho-tro-tang-truong-thuc-vat.jpg",
     "variants": [
       {
         "sapCode": "LTS-GROW-30",
@@ -658,7 +658,7 @@
         "colorTemp": "Full spectrum",
         "ipRating": "IP20",
         "dimensions": "L500mm",
-        "image": "/products/den-ho-tro-tang-truong-thuc-vat.png"
+        "image": "/products/den-ho-tro-tang-truong-thuc-vat.jpg"
       }
     ]
   },
@@ -856,7 +856,7 @@
     "unit": "Bộ",
     "price": 1900000,
     "description": "Đèn đường tích hợp tấm pin mặt trời và pin lưu trữ, tự sạc ban ngày, tự bật ban đêm — có điều khiển từ xa.",
-    "image": "/products/den-duong-nang-luong-mat-troi.png",
+    "image": "/products/den-duong-nang-luong-mat-troi.jpg",
     "variants": [
       {
         "sapCode": "LTS-SST120",
@@ -866,7 +866,7 @@
         "ipRating": "IP65",
         "dimensions": "Đèn 500x206x80mm, tấm pin 350x530x17mm",
         "note": "Lắp ở độ cao 4-5m, cảm biến chuyển động, điều khiển từ xa",
-        "image": "/products/den-duong-nang-luong-mat-troi.png"
+        "image": "/products/den-duong-nang-luong-mat-troi.jpg"
       }
     ]
   },
@@ -899,6 +899,7 @@
     "unit": "Bộ",
     "price": 420000,
     "description": "Đèn gắn tường tích hợp pin mặt trời, cảm biến sáng tối tự động, phù hợp lối đi, ban công, sân vườn.",
+    "image": "/products/den-tuong-nang-luong-mat-troi.jpg",
     "variants": [
       {
         "sapCode": "LTS-SWL10",
@@ -906,7 +907,8 @@
         "voltage": "Pin mặt trời tích hợp",
         "colorTemp": "6000K",
         "ipRating": "IP65",
-        "dimensions": "H150xW90mm"
+        "dimensions": "H150xW90mm",
+        "image": "/products/den-tuong-nang-luong-mat-troi.jpg"
       }
     ]
   },
@@ -963,7 +965,7 @@
     "unit": "Bộ",
     "price": 450000,
     "description": "Đèn chỉ dẫn lối thoát hiểm, tự động sáng khi mất điện, bắt buộc trang bị cho chung cư, văn phòng, nhà xưởng theo quy định PCCC.",
-    "image": "/products/den-chi-dan-thoat-nan.png",
+    "image": "/products/den-chi-dan-thoat-nan.jpg",
     "variants": [
       {
         "sapCode": "TEX 300S",
@@ -973,7 +975,7 @@
         "ipRating": "IP40",
         "dimensions": "L347xW38xH244mm",
         "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium",
-        "image": "/products/den-chi-dan-thoat-nan.png"
+        "image": "/products/den-chi-dan-thoat-nan.jpg"
       }
     ]
   },
@@ -986,7 +988,7 @@
     "unit": "Bộ",
     "price": 380000,
     "description": "Đèn sự cố âm trần, tự động chiếu sáng khi mất điện, phù hợp hành lang, cầu thang thoát hiểm.",
-    "image": "/products/den-su-co-am-tran.png",
+    "image": "/products/den-su-co-am-tran.jpg",
     "variants": [
       {
         "sapCode": "TTH 312",
@@ -996,7 +998,7 @@
         "ipRating": "IP20",
         "dimensions": "D95xH88mm",
         "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium",
-        "image": "/products/den-su-co-am-tran.png"
+        "image": "/products/den-su-co-am-tran.jpg"
       }
     ]
   },
@@ -1032,7 +1034,7 @@
     "unit": "Bộ",
     "price": 480000,
     "description": "Đèn sự cố dạng 2 đầu pha xoay hướng, chiếu sáng diện rộng khi mất điện, thường lắp ở hành lang, gara, nhà xưởng.",
-    "image": "/products/den-su-co-treo-tuong.png",
+    "image": "/products/den-su-co-treo-tuong.jpg",
     "variants": [
       {
         "sapCode": "TEL 33",
@@ -1042,7 +1044,7 @@
         "ipRating": "IP20",
         "dimensions": "L198xW82xH240mm",
         "note": "Lưu điện dự phòng 3 giờ, pin Nickel Cadmium",
-        "image": "/products/den-su-co-treo-tuong.png"
+        "image": "/products/den-su-co-treo-tuong.jpg"
       }
     ]
   }
