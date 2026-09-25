@@ -8,7 +8,7 @@ export function Footer() {
   const SITE_INFO = getSiteInfo();
 
   return (
-    <footer className="mt-24 bg-ink text-ink-foreground">
+    <footer className="bg-ink text-ink-foreground">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 border-b border-ink-foreground/10 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
         <div>
           <p className="text-sm font-medium">Nhận tin khuyến mãi &amp; sản phẩm mới</p>

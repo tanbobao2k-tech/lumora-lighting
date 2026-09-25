@@ -14,7 +14,7 @@ export default function PhilosophyPage() {
   const siteInfo = getSiteInfo();
 
   return (
-    <div className="bg-ink text-ink-foreground">
+    <div className="min-h-full bg-ink text-ink-foreground">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-8 sm:py-24 md:grid-cols-[0.85fr_1.15fr] md:items-center md:py-32">
         <RevealOnScroll className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden border border-accent-soft/30 md:mx-0">
           <Image
