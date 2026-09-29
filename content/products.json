@@ -227,7 +227,7 @@
     "unit": "Bộ",
     "price": 495000,
     "description": "Đèn đọc sách lắp âm hoặc gắn nổi tường, thường lắp đặt tại khu vực đầu giường ngủ.",
-    "image": "/products/den-doc-sach_lct001-b-wt.png",
+    "image": "/products/den-doc-sach_lct001-b-wt.jpg",
     "variants": [
       {
         "sapCode": "LCT001-B-GD",
@@ -238,7 +238,7 @@
         "dimensions": "L178xW50xD9mm",
         "finish": "Vàng đồng",
         "note": "Lắp âm tường",
-        "image": "/products/den-doc-sach_lct001-b-gd.png"
+        "image": "/products/den-doc-sach_lct001-b-gd.jpg"
       },
       {
         "sapCode": "LCT001-B-WT",
@@ -249,7 +249,7 @@
         "dimensions": "L178xW50xD9mm",
         "finish": "Trắng",
         "note": "Lắp âm tường",
-        "image": "/products/den-doc-sach_lct001-b-wt.png"
+        "image": "/products/den-doc-sach_lct001-b-wt.jpg"
       },
       {
         "sapCode": "LCT001-C-WT",
@@ -282,7 +282,7 @@
         "dimensions": "L140xW50xH18mm",
         "finish": "Trắng",
         "note": "Gắn nổi tường",
-        "image": "/products/den-doc-sach_lct067a-wt.png"
+        "image": "/products/den-doc-sach_lct067a-wt.jpg"
       }
     ],
     "lifestyleImage": "/products/lifestyle/den-doc-sach.jpg"
@@ -921,6 +921,7 @@
     "unit": "Bộ",
     "price": 380000,
     "description": "Đèn cắm sân vườn tích hợp pin mặt trời, tự động bật sáng khi trời tối, không cần đi dây điện.",
+    "image": "/products/den-san-vuon-nang-luong-mat-troi.jpg",
     "variants": [
       {
         "sapCode": "LTS-SGL06",
@@ -928,7 +929,8 @@
         "voltage": "Pin mặt trời tích hợp",
         "colorTemp": "3000K/6000K",
         "ipRating": "IP65",
-        "dimensions": "H400mm (kèm cọc cắm)"
+        "dimensions": "H400mm (kèm cọc cắm)",
+        "image": "/products/den-san-vuon-nang-luong-mat-troi.jpg"
       }
     ]
   },
