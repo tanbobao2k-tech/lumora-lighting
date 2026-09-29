@@ -19,12 +19,13 @@ export function ProductDetailView({ product }: { product: Product }) {
     const parts = [variant.power, variant.finish, variant.note].filter(Boolean);
     return parts.join(" · ");
   }, [variant]);
+  const activePrice = variant.price ?? product.price;
 
   const handleAdd = () => {
     addItem({
       slug: product.slug,
       name: product.name,
-      price: product.price,
+      price: activePrice,
       unit: product.unit,
       quantity,
       variantLabel,
@@ -44,7 +45,7 @@ export function ProductDetailView({ product }: { product: Product }) {
       <div>
         <p className="text-[11px] tracking-[0.25em] text-accent uppercase">{product.brand}</p>
         <h1 className="mt-3 text-2xl font-semibold sm:text-3xl">{product.name}</h1>
-        <p className="mt-3 text-lg font-medium text-accent">{formatPrice(product.price)}</p>
+        <p className="mt-3 text-lg font-medium text-accent">{formatPrice(activePrice)}</p>
         <p className="mt-4 text-sm leading-relaxed text-muted">{product.description}</p>
 
         <div className="mt-8 space-y-6">
@@ -64,6 +65,9 @@ export function ProductDetailView({ product }: { product: Product }) {
                     }`}
                   >
                     {[v.power, v.finish].filter(Boolean).join(" · ")}
+                    {v.price != null && v.price !== product.price && (
+                      <span className="ml-1.5 opacity-70">· {formatPrice(v.price)}</span>
+                    )}
                   </button>
                 ))}
               </div>
@@ -100,7 +104,7 @@ export function ProductDetailView({ product }: { product: Product }) {
             onClick={handleAdd}
             className="btn-luxury hidden bg-ink text-ink-foreground hover:opacity-85 sm:inline-flex"
           >
-            {added ? "Đã thêm vào giỏ ✓" : `Thêm vào giỏ — ${formatPrice(product.price * quantity)}`}
+            {added ? "Đã thêm vào giỏ ✓" : `Thêm vào giỏ — ${formatPrice(activePrice * quantity)}`}
           </button>
         </div>
       </div>
@@ -121,7 +125,7 @@ export function ProductDetailView({ product }: { product: Product }) {
       )}
 
       <div className="fixed inset-x-0 bottom-0 z-30 flex items-center gap-3 border-t border-ink-foreground/10 bg-ink/95 px-5 py-3 text-ink-foreground backdrop-blur sm:hidden">
-        <p className="flex-1 text-sm font-semibold">{formatPrice(product.price * quantity)}</p>
+        <p className="flex-1 text-sm font-semibold">{formatPrice(activePrice * quantity)}</p>
         <button
           type="button"
           onClick={handleAdd}

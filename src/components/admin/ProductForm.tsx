@@ -16,6 +16,7 @@ const EMPTY_VARIANT: ProductVariant = {
   finish: "",
   note: "",
   image: "",
+  price: undefined,
 };
 
 function fieldClass() {
@@ -155,7 +156,7 @@ export function ProductForm({
           />
         </label>
         <label className="block">
-          <span className="text-xs tracking-[0.15em] text-muted uppercase">Giá (VND)</span>
+          <span className="text-xs tracking-[0.15em] text-muted uppercase">Giá chung (VND)</span>
           <input
             type="number"
             min={0}
@@ -164,6 +165,9 @@ export function ProductForm({
             onChange={(e) => update("price", Number(e.target.value))}
             className={fieldClass()}
           />
+          <span className="mt-1 block text-[11px] text-muted">
+            Dùng khi phiên bản không có giá riêng bên dưới.
+          </span>
         </label>
       </div>
 
@@ -273,6 +277,21 @@ export function ProductForm({
                   <input
                     value={variant.note ?? ""}
                     onChange={(e) => updateVariant(i, { note: e.target.value })}
+                    className={fieldClass()}
+                  />
+                </label>
+                <label className="block">
+                  <span className="text-[11px] text-muted">Giá riêng (VND) — để trống thì dùng giá chung</span>
+                  <input
+                    type="number"
+                    min={0}
+                    value={variant.price ?? ""}
+                    onChange={(e) =>
+                      updateVariant(i, {
+                        price: e.target.value === "" ? undefined : Number(e.target.value),
+                      })
+                    }
+                    placeholder={String(product.price)}
                     className={fieldClass()}
                   />
                 </label>

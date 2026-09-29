@@ -7,6 +7,9 @@ import { ProductPlaceholderImage } from "./ProductPlaceholderImage";
 export function ProductCard({ product }: { product: Product }) {
   const hasMultipleVariants = product.variants.length > 1;
   const isPhoto = /\.jpe?g$/i.test(product.image ?? "");
+  const prices = product.variants.map((v) => v.price ?? product.price);
+  const minPrice = Math.min(product.price, ...prices);
+  const pricesDiffer = hasMultipleVariants && new Set(prices).size > 1;
 
   return (
     <Link href={`/san-pham/${product.slug}`} className="group block">
@@ -34,8 +37,8 @@ export function ProductCard({ product }: { product: Product }) {
           <h3 className="mt-1 text-sm text-foreground">{product.name}</h3>
         </div>
         <p className="whitespace-nowrap text-sm font-medium text-accent">
-          {hasMultipleVariants && <span className="font-normal text-xs text-muted">từ </span>}
-          {formatPrice(product.price)}
+          {pricesDiffer && <span className="font-normal text-xs text-muted">từ </span>}
+          {formatPrice(pricesDiffer ? minPrice : product.price)}
         </p>
       </div>
     </Link>

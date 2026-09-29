@@ -11,6 +11,8 @@ export interface ProductVariant {
   note?: string;
   /** Ảnh riêng cho phiên bản này (khác màu/kiểu lắp so với phiên bản khác) */
   image?: string;
+  /** Giá riêng cho phiên bản này — để trống thì dùng giá chung của sản phẩm (price) */
+  price?: number;
 }
 
 export interface Product {
