@@ -84,8 +84,12 @@ từ website chính thức của LTS (ltslight.vn). Còn thiếu:
 Có trang admin chỉnh sửa gần như mọi nội dung web mà không cần sửa code / build lại:
 
 - **Đăng nhập**: `/admin/login`, xác thực bằng 1 mật khẩu chung lưu ở biến môi trường
-  `ADMIN_PASSWORD` trong `.env.local` (hiện đang là `lumora-quan-tri-2026` — **nên đổi mật khẩu
-  này** qua `.env.local` rồi restart server). Phiên đăng nhập lưu bằng cookie httpOnly 30 ngày.
+  `ADMIN_PASSWORD`. Local dev đọc từ `.env.local` (hiện đang là `banhbao2k`). **Production (Vercel)
+  đọc từ biến môi trường riêng cấu hình trong Vercel Dashboard → Settings → Environment Variables —
+  đây là nơi thực sự quyết định mật khẩu đăng nhập trên web thật, phải sửa ở đó chứ sửa
+  `.env.local` không có tác dụng gì với web đã deploy.** Sau khi đổi biến trên Vercel phải
+  redeploy (hoặc Vercel tự redeploy khi biến thay đổi tuỳ cấu hình) thì mới có hiệu lực. Phiên
+  đăng nhập lưu bằng cookie httpOnly 30 ngày.
   Route `/admin/*` và `/api/admin/*` được chặn bởi [`src/proxy.ts`](src/proxy.ts) (Next.js 16 đổi
   tên quy ước từ `middleware.ts` sang `proxy.ts`).
 - **Quản lý được**: sản phẩm (thêm/sửa/xoá, nhiều phiên bản/biến thể, tải ảnh lên) tại
