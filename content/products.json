@@ -427,7 +427,7 @@
     "unit": "Bộ",
     "price": 672000,
     "description": "Đèn panel âm trần ánh sáng đều dịu, thường lắp cho văn phòng, showroom, trần thạch cao.",
-    "image": "/products/den-panel-am-tran.png",
+    "image": "/products/den-panel-am-tran.jpg",
     "variants": [
       {
         "sapCode": "OP-PN60-32",
@@ -436,7 +436,7 @@
         "colorTemp": "3000K/4000K/6500K",
         "ipRating": "IP20",
         "dimensions": "L595xW595xH34mm",
-        "image": "/products/den-panel-am-tran.png"
+        "image": "/products/den-panel-am-tran.jpg"
       },
       {
         "sapCode": "OP-PN120-32",
@@ -446,7 +446,7 @@
         "ipRating": "IP20",
         "dimensions": "L1195xW295xH34mm",
         "note": "Dạng dài",
-        "image": "/products/den-panel-am-tran.png"
+        "image": "/products/den-panel-am-tran.jpg"
       }
     ]
   },
