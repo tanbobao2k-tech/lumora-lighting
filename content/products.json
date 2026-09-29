@@ -296,7 +296,7 @@
     "unit": "Bộ",
     "price": 300000,
     "description": "Đèn cắm cỏ chiếu sáng cây cảnh, tiểu cảnh sân vườn, khả năng chống nước cao cho ngoài trời.",
-    "image": "/products/den-cam-co_sp4609.png",
+    "image": "/products/den-cam-co-san-vuon.jpg",
     "variants": [
       {
         "sapCode": "SP4609",
@@ -307,7 +307,7 @@
         "dimensions": "L150xD85xH300mm",
         "finish": "Đen",
         "note": "Lắp với chân cắm cỏ (cắm xuống đất)",
-        "image": "/products/den-cam-co_sp4609.png"
+        "image": "/products/den-cam-co-san-vuon.jpg"
       },
       {
         "sapCode": "TR-E93-B",
@@ -318,7 +318,7 @@
         "dimensions": "D93xH150mm",
         "finish": "Xám",
         "note": "Lắp với base (bắn lên bệ bê tông)",
-        "image": "/products/den-cam-co_tr-e93-b.png"
+        "image": "/products/den-cam-co-san-vuon.jpg"
       },
       {
         "sapCode": "TR-E93-R",
@@ -329,7 +329,7 @@
         "dimensions": "D93xH150mm",
         "finish": "Xám",
         "note": "Lắp với đai (quấn vào cây, cột)",
-        "image": "/products/den-cam-co_tr-e93-r.png"
+        "image": "/products/den-cam-co-san-vuon.jpg"
       }
     ]
   },
