@@ -6,7 +6,7 @@
     "category": "trong-nha",
     "subCategory": "Đèn ốp trần",
     "unit": "Bộ",
-    "price": 175000,
+    "price": 0,
     "description": "Đèn ốp trần lắp nổi, ánh sáng đều dịu, thường lắp đặt tại cầu thang bộ, ban công, lô gia.",
     "image": "/products/51odnlyxnml-1790655504347.jpg",
     "variants": [
@@ -17,7 +17,8 @@
         "colorTemp": "6500K",
         "ipRating": "IP20",
         "dimensions": "D142xH45mm",
-        "image": "/products/51odnlyxnml-1790655519941.jpg"
+        "image": "/products/51odnlyxnml-1790655519941.jpg",
+        "price": 175000
       },
       {
         "sapCode": "540001297300",
