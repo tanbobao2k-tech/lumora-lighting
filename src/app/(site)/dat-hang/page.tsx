@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useCart } from "@/components/cart/CartContext";
 import { formatPrice } from "@/lib/format";
+import { trackEvent } from "@/lib/analytics";
 import type { OrderPayload } from "@/app/api/orders/route";
 
 export default function CheckoutPage() {
@@ -36,6 +37,7 @@ export default function CheckoutPage() {
 
     setOrderId(data.orderId);
     setStatus("done");
+    trackEvent("place_order", "Purchase");
     clearCart();
   };
 

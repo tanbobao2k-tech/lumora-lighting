@@ -140,6 +140,29 @@ chung `.btn-luxury` (góc vuông, chữ hoa dãn cách, không còn bo tròn ki�
 `grayscale`) phủ toàn site — xem `body::before` trong `globals.css`, thêm theo yêu cầu người dùng
 trước khi chuyển hướng sang luxury nên đã giảm độ hiện diện để không phá tông đen/vàng.
 
+## Tracking quảng cáo (GTM / Meta Pixel)
+
+- Gắn qua biến môi trường, không hardcode ID trong code: `NEXT_PUBLIC_GTM_ID` (Google Tag Manager,
+  dạng `GTM-XXXXXXX`) và `NEXT_PUBLIC_FB_PIXEL_ID` (Meta Pixel, dãy số) trong `.env.local` (dev) và
+  Vercel → Settings → Environment Variables (production, nhớ redeploy sau khi thêm). Thiếu biến nào
+  thì script tương ứng không được chèn — an toàn khi chưa có ID.
+  Code nằm ở [`src/app/layout.tsx`](src/app/layout.tsx) (chèn script GTM + Meta Pixel qua
+  `next/script`, đọc `process.env.NEXT_PUBLIC_GTM_ID` / `NEXT_PUBLIC_FB_PIXEL_ID`).
+- Event conversion đã gắn: [`trackEvent()`](src/lib/analytics.ts) đẩy `event` vào
+  `window.dataLayer` (cho GTM) và gọi `fbq('track', ...)` (cho Meta Pixel).
+  - Đặt hàng thành công (`/dat-hang`): `place_order` / `Purchase` —
+    [`dat-hang/page.tsx`](<src/app/(site)/dat-hang/page.tsx>).
+  - Click gọi điện / Zalo / Messenger ở cụm icon nổi: `click_call` / `click_zalo` /
+    `click_messenger`, đều bắn `Contact` cho Meta — qua
+    [`TrackedLink.tsx`](src/components/layout/TrackedLink.tsx) dùng trong
+    [`ContactIcons.tsx`](src/components/layout/ContactIcons.tsx).
+  - Muốn thêm event ở chỗ khác (ví dụ xem chi tiết sản phẩm, thêm giỏ hàng): gọi
+    `trackEvent("ten_event_gtm", "TenEventChuanMeta")` từ client component, hoặc dùng
+    `<TrackedLink gtmEvent="..." fbEvent="...">` thay cho `<a>` với link ra ngoài.
+  - Trong GTM cần tự tạo Trigger (Custom Event khớp tên event) + Tag (Google Ads
+    Conversion/GA4 Event) tương ứng — code chỉ bắn event vào `dataLayer`, không tự tạo tag trong
+    GTM.
+
 ## Tech stack
 
 - Next.js 16 (App Router) + TypeScript + Tailwind CSS v4 (cấu hình theme qua `@theme inline` trong

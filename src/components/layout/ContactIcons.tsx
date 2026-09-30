@@ -1,4 +1,5 @@
 import { getSiteInfo } from "@/lib/content-store";
+import { TrackedLink } from "@/components/layout/TrackedLink";
 
 const ICON_PROPS = {
   viewBox: "0 0 24 24",
@@ -42,35 +43,43 @@ export function ContactIcons() {
       href: `tel:${SITE_INFO.phones[0]}`,
       icon: <PhoneIcon />,
       bg: "bg-accent",
+      gtmEvent: "click_call",
+      fbEvent: "Contact",
     },
     {
       label: "Nhắn Zalo",
       href: `https://zalo.me/${SITE_INFO.phones[0]}`,
       icon: <ZaloBadge />,
       bg: "bg-[#0068ff]",
+      gtmEvent: "click_zalo",
+      fbEvent: "Contact",
     },
     {
       label: "Nhắn Messenger",
       href: SITE_INFO.messengerLink,
       icon: <MessengerIcon />,
       bg: "bg-[#0084ff]",
+      gtmEvent: "click_messenger",
+      fbEvent: "Contact",
     },
   ];
 
   return (
     <div className="fixed bottom-24 right-5 z-40 flex flex-col gap-3 sm:bottom-8 sm:right-8">
       {CONTACT_LINKS.map((item) => (
-        <a
+        <TrackedLink
           key={item.label}
           href={item.href}
           target={item.href.startsWith("tel:") ? undefined : "_blank"}
           rel={item.href.startsWith("tel:") ? undefined : "noreferrer"}
           aria-label={item.label}
           title={item.label}
+          gtmEvent={item.gtmEvent}
+          fbEvent={item.fbEvent}
           className={`flex h-11 w-11 items-center justify-center rounded-full text-white shadow-lg transition-transform hover:scale-105 ${item.bg}`}
         >
           {item.icon}
-        </a>
+        </TrackedLink>
       ))}
     </div>
   );
