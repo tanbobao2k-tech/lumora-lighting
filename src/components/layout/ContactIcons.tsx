@@ -40,6 +40,7 @@ export function ContactIcons() {
   const CONTACT_LINKS = [
     {
       label: "Gọi điện",
+      displayText: SITE_INFO.phones[0],
       href: `tel:${SITE_INFO.phones[0]}`,
       icon: <PhoneIcon />,
       bg: "bg-accent",
@@ -48,6 +49,7 @@ export function ContactIcons() {
     },
     {
       label: "Nhắn Zalo",
+      displayText: `Zalo: ${SITE_INFO.phones[0]}`,
       href: `https://zalo.me/${SITE_INFO.phones[0]}`,
       icon: <ZaloBadge />,
       bg: "bg-[#0068ff]",
@@ -56,6 +58,7 @@ export function ContactIcons() {
     },
     {
       label: "Nhắn Messenger",
+      displayText: "Nhắn tin Messenger",
       href: SITE_INFO.messengerLink,
       icon: <MessengerIcon />,
       bg: "bg-[#0084ff]",
@@ -67,19 +70,23 @@ export function ContactIcons() {
   return (
     <div className="fixed bottom-24 right-5 z-40 flex flex-col gap-3 sm:bottom-8 sm:right-8">
       {CONTACT_LINKS.map((item) => (
-        <TrackedLink
-          key={item.label}
-          href={item.href}
-          target={item.href.startsWith("tel:") ? undefined : "_blank"}
-          rel={item.href.startsWith("tel:") ? undefined : "noreferrer"}
-          aria-label={item.label}
-          title={item.label}
-          gtmEvent={item.gtmEvent}
-          fbEvent={item.fbEvent}
-          className={`flex h-11 w-11 items-center justify-center rounded-full text-white shadow-lg transition-transform hover:scale-105 ${item.bg}`}
-        >
-          {item.icon}
-        </TrackedLink>
+        <div key={item.label} className="group relative flex items-center justify-end">
+          <span className="pointer-events-none absolute right-full mr-3 whitespace-nowrap rounded-md bg-ink px-3 py-1.5 text-sm text-ink-foreground opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
+            {item.displayText}
+          </span>
+          <TrackedLink
+            href={item.href}
+            target={item.href.startsWith("tel:") ? undefined : "_blank"}
+            rel={item.href.startsWith("tel:") ? undefined : "noreferrer"}
+            aria-label={item.label}
+            title={item.displayText}
+            gtmEvent={item.gtmEvent}
+            fbEvent={item.fbEvent}
+            className={`flex h-11 w-11 items-center justify-center rounded-full text-white shadow-lg transition-transform hover:scale-105 ${item.bg}`}
+          >
+            {item.icon}
+          </TrackedLink>
+        </div>
       ))}
     </div>
   );
