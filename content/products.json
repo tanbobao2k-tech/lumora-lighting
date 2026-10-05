@@ -475,7 +475,7 @@
     "unit": "Bộ",
     "price": 250000,
     "description": "Đèn rọi ray gắn thanh ray, chiếu điểm nhấn sản phẩm, thường dùng cho shop thời trang, showroom.",
-    "image": "/products/den-roi-ray.png",
+    "image": "/products/den-roi-ray.jpg",
     "variants": [
       {
         "sapCode": "LTS-TR10",
@@ -484,7 +484,7 @@
         "colorTemp": "2700K/3000K/4000K",
         "ipRating": "IP20",
         "dimensions": "D70xL95mm",
-        "image": "/products/den-roi-ray.png"
+        "image": "/products/den-roi-ray.jpg"
       },
       {
         "sapCode": "LTS-TR20",
@@ -493,7 +493,7 @@
         "colorTemp": "2700K/3000K/4000K",
         "ipRating": "IP20",
         "dimensions": "D70xL95mm",
-        "image": "/products/den-roi-ray.png"
+        "image": "/products/den-roi-ray.jpg"
       }
     ],
     "lifestyleImage": "/products/lifestyle/den-roi-ray.jpg"
