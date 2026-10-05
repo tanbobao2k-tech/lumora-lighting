@@ -6,7 +6,7 @@
     "category": "trong-nha",
     "subCategory": "Đèn ốp trần",
     "unit": "Bộ",
-    "price": 0,
+    "price": 132000,
     "description": "Đèn ốp trần lắp nổi, ánh sáng đều dịu, thường lắp đặt tại cầu thang bộ, ban công, lô gia.",
     "image": "/products/51odnlyxnml-1790655504347.jpg",
     "variants": [
@@ -63,7 +63,8 @@
         "dimensions": "D115xH152mm",
         "finish": "Đen",
         "note": "Hàng dự án",
-        "image": "/products/den-ong-bo-gan-noi_20w-den.png"
+        "image": "/products/den-ong-bo-gan-noi_20w-den.png",
+        "price": 798000
       }
     ]
   },
@@ -87,7 +88,8 @@
         "dimensions": "D170xH82mm (khoét D150mm)",
         "finish": "Philips",
         "note": "Đèn chóa sâu, ưu tiên lắp sảnh cao 3.5-4m",
-        "image": "/products/den-downlight-am-tran_philips-20w.jpg"
+        "image": "/products/den-downlight-am-tran_philips-20w.jpg",
+        "price": 622000
       },
       {
         "sapCode": "540001281900",
@@ -96,7 +98,8 @@
         "colorTemp": "6500K",
         "ipRating": "IP20",
         "dimensions": "D115xH35mm (khoét D100mm)",
-        "image": "/products/den-downlight-am-tran_9w.png"
+        "image": "/products/den-downlight-am-tran_9w.png",
+        "price": 98000
       },
       {
         "sapCode": "540001408500",
@@ -115,7 +118,8 @@
         "ipRating": "IP44",
         "dimensions": "D213xH31mm (khoét D200mm)",
         "note": "Chống ẩm, ưu tiên lắp phòng vệ sinh, sảnh",
-        "image": "/products/den-downlight-am-tran_18w-ip44.png"
+        "image": "/products/den-downlight-am-tran_18w-ip44.png",
+        "price": 175000
       },
       {
         "sapCode": "540001346300",
@@ -125,7 +129,8 @@
         "ipRating": "IP20",
         "dimensions": "D140xH48mm (khoét D125mm)",
         "note": "Ưu tiên lắp sảnh cao 3.5-4m",
-        "image": "/products/den-downlight-am-tran_20w-choa.png"
+        "image": "/products/den-downlight-am-tran_20w-choa.png",
+        "price": 155000
       }
     ],
     "lifestyleImage": "/products/lifestyle/den-downlight-am-tran-2.jpg"
@@ -182,7 +187,8 @@
         "dimensions": "L1200xW120xH50mm",
         "finish": "Đen (Philips)",
         "note": "Hàng dự án",
-        "image": "/products/den-linear-treo-tha_philips-30w.png"
+        "image": "/products/den-linear-treo-tha_philips-30w.png",
+        "price": 1300000
       }
     ],
     "lifestyleImage": "/products/lifestyle/den-linear-treo-tha.jpg"
@@ -216,7 +222,8 @@
         "ipRating": "IP20",
         "dimensions": "L1200mm",
         "note": "Máng đôi",
-        "image": "/products/mang-den-tuyp_doi.png"
+        "image": "/products/mang-den-tuyp_doi.png",
+        "price": 146000
       }
     ]
   },
@@ -240,7 +247,8 @@
         "dimensions": "L178xW50xD9mm",
         "finish": "Vàng đồng",
         "note": "Lắp âm tường",
-        "image": "/products/den-doc-sach_lct001-b-gd.jpg"
+        "image": "/products/den-doc-sach_lct001-b-gd.jpg",
+        "price": 536000
       },
       {
         "sapCode": "LCT001-B-WT",
@@ -251,7 +259,8 @@
         "dimensions": "L178xW50xD9mm",
         "finish": "Trắng",
         "note": "Lắp âm tường",
-        "image": "/products/den-doc-sach_lct001-b-wt.jpg"
+        "image": "/products/den-doc-sach_lct001-b-wt.jpg",
+        "price": 536000
       },
       {
         "sapCode": "LCT001-C-WT",
@@ -273,7 +282,8 @@
         "dimensions": "L140xW50xH18mm",
         "finish": "Vàng đồng",
         "note": "Gắn nổi tường",
-        "image": "/products/den-doc-sach_lct067a-gd.png"
+        "image": "/products/den-doc-sach_lct067a-gd.png",
+        "price": 645000
       },
       {
         "sapCode": "LCT067A-WT",
@@ -284,7 +294,8 @@
         "dimensions": "L140xW50xH18mm",
         "finish": "Trắng",
         "note": "Gắn nổi tường",
-        "image": "/products/den-doc-sach_lct067a-wt.jpg"
+        "image": "/products/den-doc-sach_lct067a-wt.jpg",
+        "price": 645000
       }
     ],
     "lifestyleImage": "/products/lifestyle/den-doc-sach.jpg"
@@ -320,7 +331,8 @@
         "dimensions": "D93xH150mm",
         "finish": "Xám",
         "note": "Lắp với base (bắn lên bệ bê tông)",
-        "image": "/products/den-cam-co-san-vuon.jpg"
+        "image": "/products/den-cam-co-san-vuon.jpg",
+        "price": 884000
       },
       {
         "sapCode": "TR-E93-R",
@@ -331,7 +343,8 @@
         "dimensions": "D93xH150mm",
         "finish": "Xám",
         "note": "Lắp với đai (quấn vào cây, cột)",
-        "image": "/products/den-cam-co-san-vuon.jpg"
+        "image": "/products/den-cam-co-san-vuon.jpg",
+        "price": 884000
       }
     ]
   },
@@ -385,7 +398,8 @@
         "colorTemp": "—",
         "ipRating": "—",
         "dimensions": "Quạt đứng",
-        "image": "/products/quat-nang-luong_dung.jpg"
+        "image": "/products/quat-nang-luong_dung.jpg",
+        "price": 700000
       }
     ]
   },
